@@ -4,4 +4,5 @@
 * [laravel](laravel.md)
   * [配置相关](laravel/pei-zhi-xiang-guan.md)
 * [vue](vue.md)
+  * [状态管理](vue/zhuang-tai-guan-li.md)
 
