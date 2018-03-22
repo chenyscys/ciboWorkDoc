@@ -7,5 +7,5 @@
   * [状态管理](vue/zhuang-tai-guan-li.md)
   * [组件管理](vue/zu-jian-guan-li.md)
 * [村村最帅](cun-cun-zui-shuai.md)
-* [嘿嘿嘿](hei-hei.md)
+* [真特么酷](hei-hei.md)
 
