@@ -6,7 +6,7 @@
 
 不过有时候可能会遇到找不到命令的情况，那这时候注意一下安装成功时指定的路径，然后创建一个软链接，把路径指引到`/usr/local/bin/gitbook` 或者 `/usr/bin/gitbook` 就可以运行gitbook命令了。
 
-网上很多文章都说要`gitbook -v `出来版本号，不过我是打不出来，用`gitbook --version `这个命令才能出来版本号，也不知道是为何~~
+网上很多文章都说要`gitbook -v`出来版本号，不过我是打不出来，用`gitbook --version`这个命令才能出来版本号，也不知道是为何~~
 
 接下来，就是新建一个文件夹，然后开始简单的gitbook几个命令的瞎玩：
 
@@ -29,6 +29,44 @@
 后面我就采用了github的webhook来实现，接下来，就让我们来看看github的神奇魔法吧！
 
 1. 首先，我们要在github上建个仓库，拿到仓库地址后，然后就到服务器上clone一下，还有到Gitbook Editor配置一下（Editor这里最后再说说怎么配置）；
-2. 
+2. ![](/assets/import.png) Gitbook Editor 在我们每次编辑之后就会有个save按钮，save之后右边那个就是上传到github仓库上，也就是git push。PS：这编辑器也是够简单粗暴的，不过我喜欢~~
+
+3. 接下来我们要去github上面的项目配置一下**webhooks**了，首先打开github项目网址，然后去项目的setting设置里，  
+   ![](/assets/githubSetting.png)在这里新建一个webhook，填上一个网址。而当push完项目时，github就会去POST这个网址，并且传上一系列参数，这里可选表单模式与json模式，看个人喜欢选择咯！
+
+#### 到这为止，都没什么问题，也比较简单，但接下来就是关键了~~~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
