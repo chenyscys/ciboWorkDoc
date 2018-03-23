@@ -1,4 +1,10 @@
-# My Awesome Book
+# 这是一本世邦技术团队的工具书！
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas. 
+### 它能做什么? 
+
+1、教你搭建环境；
+
+2、助你解决bug；
+
+3、帮你更好的了解这个团队的技术架构！
 
