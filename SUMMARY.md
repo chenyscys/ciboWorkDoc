@@ -8,5 +8,4 @@
   * [组件管理](vue/zu-jian-guan-li.md)
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
-* [我们的小房子最漂亮了](wo-men-de-xiao-fang-zi-zui-piao-liang-le.md)
 
