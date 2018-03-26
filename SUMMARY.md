@@ -8,4 +8,5 @@
   * [组件管理](vue/zu-jian-guan-li.md)
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
+  * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
 
