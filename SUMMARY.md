@@ -8,5 +8,4 @@
   * [组件管理](vue/zu-jian-guan-li.md)
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
-* test
 
