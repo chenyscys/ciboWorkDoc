@@ -23,5 +23,11 @@
 
 这个帖子说引起问题的原因是因为win7的TLS协议，打上两个补丁，然后重启一下电脑，就可以解决了！！！！！
 
+下面是两个补丁的链接：
+
+1、[http://www.catalog.update.microsoft.com/search.aspx?q=kb3140245](http://www.catalog.update.microsoft.com/search.aspx?q=kb3140245)
+
+2、[http://download.microsoft.com/download/0/6/5/0658B1A7-6D2E-474F-BC2C-D69E5B9E9A68/MicrosoftEasyFix51044.msi](http://download.microsoft.com/download/0/6/5/0658B1A7-6D2E-474F-BC2C-D69E5B9E9A68/MicrosoftEasyFix51044.msi)
+
 最后，方案三成功胜利，谢谢外国友人！！！
 
