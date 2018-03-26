@@ -18,7 +18,7 @@
 
 在经历了刀山火海之后，我发现我是解决不了了，于是我就跑到了gitbook官网的留言版，和github上提issue。（PS：用我那蹩脚的狗级英语，没想到大神还真看懂了！！！） 没想到早上11点提的，下午休斯顿的大神就回了我并发了条链接，按着链接里的方法，给win7装了两补丁之后就特么解决了。。。整个过程加上重启不用5分钟~~~~大神，请在遥远的休斯顿接受我的膜拜，这赛季，火箭必胜！！！
 
-下面，贴上链接地址：解决问题的链接  
+下面，贴上链接地址：[解决问题的链接](https://stackoverflow.com/questions/48985995/gitkraken-and-github-failed-to-get-server-certificate-the-handle-is-in-the-wr)  
 ![](/assets/1import.png)
 
 这个帖子说引起问题的原因是因为win7的TLS协议，打上两个补丁，然后重启一下电脑，就可以解决了！！！！！
