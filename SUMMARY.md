@@ -8,4 +8,5 @@
   * [组件管理](vue/zu-jian-guan-li.md)
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
+* [小房子666的](xiao-fang-zi-666-de.md)
 
