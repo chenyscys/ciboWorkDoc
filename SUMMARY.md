@@ -10,4 +10,5 @@
   * [gitbook](za-xiang/gitbook.md)
   * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
   * [使用Gitbook Editor的注意事项](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
+* [dajieda](dajieda.md)
 
