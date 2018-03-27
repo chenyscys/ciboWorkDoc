@@ -9,5 +9,5 @@
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
   * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
-  * [使用Gitbook Editor的注意事项](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
+  * [解决WIN7不能使用Gitbook Editor](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
 
