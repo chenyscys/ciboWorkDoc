@@ -9,14 +9,16 @@
 
 5. 到网站branches/201801/public中，把之前的dist文件夹删除，然后把打包好的dist文件夹复制过去；
 
-6. 更新测试，则连上29服务器执行以下几条命令： svn update svn://192.168.3.29/svn/cibohome\_v/trunk /mnt/xvdb1/www/vue/cibohome  
-   cd /mnt/xvdb1/www/vue/cibohome
+6. 更新测试，则连上29服务器执行以下几条命令：   
+   svn update svn://192.168.3.29/svn/cibohome\_v/trunk /mnt/xvdb1/www/vue/cibohome
 
-   npm run build
+       cd /mnt/xvdb1/www/vue/cibohome
 
-   rm -rf /mnt/xvdb1/www/composer/ciboapp/public/dist
+       npm run build
 
-   cp -Rf dist /mnt/xvdb1/www/composer/ciboapp/public
+       rm -rf /mnt/xvdb1/www/composer/ciboapp/public/dist
+
+       cp -Rf dist /mnt/xvdb1/www/composer/ciboapp/public
 
 ---
 
