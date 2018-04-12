@@ -3,16 +3,16 @@ scrollPos组件，是用来记录页面滚动条的位置，一共有4个属性�
 ```
 scrollPos:{
     scrollLeft:{
-    
+
     },
     scrollTop:{
-    
+
     },
     scrollRight:{
-    
+
     },
     scrollDown:{
-    
+
     }
 }
 ```
@@ -21,12 +21,14 @@ scrollPos:{
 
 ```
 let scrollPos = {
-	scrollTop:{
-		crazyBase:10
-	}
+    scrollTop:{
+        crazyBase:10
+    }
 };
 this.$store.commit('updateScrollPos',{scrollPos:scrollPos});
 ```
 
 如上，我记录的是crazyBase页面的滚动条距离顶部的距离，很简单，对吧！
+
+**在记录的时候千万要记得加上页面名称，否则会覆盖掉别人的哦。**
 
