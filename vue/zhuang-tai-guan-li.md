@@ -8,3 +8,23 @@ vue的状态管理，在我们的项目中一般是拿来记录一些比较常�
 
 2、记录页面的状态，在跳转到另一个页面之后，之前页面的状态就可以保存下来了；
 
+
+
+使用方法：
+
+1、获取状态数据：
+
+`this.$store.state `这是全部的状态数据，如需要特定的状态，可根据命名情况直接获取相对应的数据，如
+
+`this.$store.state.scrollPos` 可获取滚动条位置。
+
+2、更新状态数据：
+
+```
+this.$store.commit('updateScrollPos',{scrollPos:scrollPos}); 
+```
+
+以上，`updateScrollPos`代表的是在`mutation-type`注册的参数，后面则是相关的更新数据，具体使用的方法参考业务代码，这里就不详细解释了。
+
+
+
