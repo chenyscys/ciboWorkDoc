@@ -4,7 +4,7 @@
 * [laravel](laravel.md)
   * [配置相关](laravel/pei-zhi-xiang-guan.md)
 * [vue](vue.md)
-  * [状态管理](vue/zhuang-tai-guan-li.md)
+  * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
     * [qhActivity](vue/zhuang-tai-guan-li/qhactivity.md)
   * [组件管理](vue/zu-jian-guan-li.md)
