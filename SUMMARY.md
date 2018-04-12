@@ -6,6 +6,7 @@
 * [vue](vue.md)
   * [状态管理](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
+    * [qhActivity](vue/zhuang-tai-guan-li/qhactivity.md)
   * [组件管理](vue/zu-jian-guan-li.md)
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
