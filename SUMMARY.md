@@ -22,6 +22,7 @@
   * [nginx](centos/nginx.md)
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
   * [centos](centos/centos.md)
+  * [php](centos/php.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
