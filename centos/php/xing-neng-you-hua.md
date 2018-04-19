@@ -1,3 +1,5 @@
+cd /etc/php-fpm.d/
+
 pm=dynamic
 
 pm.max\_children=100
