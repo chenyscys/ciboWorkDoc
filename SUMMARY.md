@@ -19,10 +19,12 @@
   * [fastdfs](centos/fastdfs.md)
   * [mysql](centos/mysql.md)
   * [elk](centos/elk.md)
+  * [nginx](centos/nginx.md)
+    * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
 * [wechat](wechat.md)
-  * easywechat
+  * [easywechat](wechat/easywechat.md)
 * [prod && dev](prod-andand-dev.md)
 
