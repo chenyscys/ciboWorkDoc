@@ -1,4 +1,4 @@
-进入根目录
+* 进入根目录
 
 cd /www/ciboapp/branches/201801
 
