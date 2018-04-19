@@ -1,14 +1,12 @@
 [http://www.cleey.com/blog/single/id/753.html](http://www.cleey.com/blog/single/id/753.html)
 
-1、安装fastdfs，参考网址
-
-
+1、安装fastdfs模块，参考网址
 
 2、安装php支持
 
 * 安装扩展到php
 
-phpize 
+phpize
 
 ./configure --with-php-config=/usr/bin/php-config
 
