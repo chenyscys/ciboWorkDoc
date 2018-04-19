@@ -1,3 +1,5 @@
+3.27,3.28,3.32
+
 * 发布更新svn
 
 svn update svn://192.168.3.29/svn/ciboapp/branches/201801 /www/ciboapp/branches/201801

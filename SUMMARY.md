@@ -40,5 +40,5 @@
   * [projects](prod-and-dev/projects.md)
     * [ciboapp](prod-and-dev/projects/ciboapp.md)
       * [正式](prod-and-dev/projects/ciboapp/zheng-shi.md)
-      * 测试
+      * [测试](prod-and-dev/projects/ciboapp/ce-shi.md)
 
