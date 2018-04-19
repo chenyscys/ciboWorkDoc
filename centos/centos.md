@@ -30,3 +30,7 @@ df -lh
 
 du -sh \*
 
+* 查找文件
+
+find / -name
+
