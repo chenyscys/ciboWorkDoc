@@ -1,4 +1,4 @@
-cd /etc/php-fpm.d/
+vi /etc/php-fpm.d/www.conf
 
 pm=dynamic
 
