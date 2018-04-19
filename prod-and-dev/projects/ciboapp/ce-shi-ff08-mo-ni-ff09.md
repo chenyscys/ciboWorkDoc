@@ -12,6 +12,11 @@ vi .env.development
 
 ![](/assets/laravel微信模拟授权.png)
 
-* 
+php artisan config:cache  --env=development
+
+
+
+
+
 
 
