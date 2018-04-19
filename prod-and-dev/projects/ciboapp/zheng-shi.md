@@ -12,3 +12,17 @@ chmod -R 777 public storage
 
 php artisan config:cache  --env=production
 
+php artisan route:cache 
+
+
+
+* php编译缓存
+
+cd /www/ciboapp/branches/201801/
+
+rm -rf storage
+
+更新项目svn
+
+ chmod -R 777 storage
+
