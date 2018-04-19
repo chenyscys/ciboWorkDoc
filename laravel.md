@@ -1,2 +1,6 @@
-laravel超神
+composer dump-autoload   
+
+composer update
+
+composer install
 
