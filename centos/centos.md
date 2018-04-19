@@ -24,11 +24,9 @@ dmidecode -s processor-version \#查看 CPU  型号
 
 cat /proc/cpuinfo \#查看 CPU 的详细信息
 
-
-
-磁盘空间
+* 磁盘空间
 
 df -lh
 
-du -sh \*  
+du -sh \*
 
