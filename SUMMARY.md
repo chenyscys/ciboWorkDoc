@@ -29,7 +29,7 @@
     * [composer安装](centos/php/composeran-zhuang.md)
     * [性能优化](centos/php/xing-neng-you-hua.md)
   * [svn](centos/svn.md)
-  * [http\_load压力测试](centos/httpload.md)
+  * [http\_load](centos/httpload.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
