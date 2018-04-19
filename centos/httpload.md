@@ -1,6 +1,10 @@
-3.29
+#### 3.29
+
+* 进入目录
 
 cd /app/http\_load-12mar2006
+
+* 运行测试
 
 ./http\_load -parallel 100 -s 15 urllist.txt
 
