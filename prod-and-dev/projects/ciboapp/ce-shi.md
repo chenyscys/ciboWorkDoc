@@ -1,4 +1,4 @@
-_3.29_
+_3.29 http://dev1.cibohome.com_
 
 * 更新命令
 
