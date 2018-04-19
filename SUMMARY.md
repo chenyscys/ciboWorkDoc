@@ -3,6 +3,7 @@
 * [About this book](README.md)
 * [laravel](laravel.md)
   * [配置相关](laravel/pei-zhi-xiang-guan.md)
+  * [缓存](laravel/huan-cun.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
