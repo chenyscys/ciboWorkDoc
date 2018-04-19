@@ -24,6 +24,7 @@
   * [centos](centos/centos.md)
   * [php](centos/php.md)
     * [配置](centos/php/pei-zhi.md)
+    * [predis安装](centos/php/predis.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
