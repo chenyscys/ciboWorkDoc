@@ -8,7 +8,7 @@ cd /www/ciboapp/branches/201801/
 
 chmod -R 777 public storage
 
-* 清理缓存
+* laravel缓存清理
 
 php artisan config:cache  --env=production
 
