@@ -2,7 +2,7 @@
 
 shutdown -r now
 
-端口
+* 端口
 
 _centos6.5_
 
