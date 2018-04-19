@@ -2,7 +2,7 @@
 
 1、安装fastdfs模块，参考网址
 
-2、安装php支持
+2、php安装fastdfs扩展
 
 * 安装扩展到php
 
