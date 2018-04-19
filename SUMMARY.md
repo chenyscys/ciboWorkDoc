@@ -14,7 +14,7 @@
   * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
   * [解决WIN7不能使用Gitbook Editor](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
   * [关于更新、推送Gitbook Editor时冲突的解决](guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
-* [服务器 modules](centos.md)
+* [服务器](centos.md)
   * [redis](centos/redis.md)
   * [fastdfs](centos/fastdfs.md)
   * [mysql](centos/mysql.md)
