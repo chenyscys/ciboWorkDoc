@@ -22,6 +22,7 @@
   * [nginx](centos/nginx.md)
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
   * [centos](centos/centos.md)
+    * [xshell](centos/centos/xshell.md)
   * [php](centos/php.md)
     * [基本配置](centos/php/pei-zhi.md)
     * [predis安装](centos/php/predis.md)
