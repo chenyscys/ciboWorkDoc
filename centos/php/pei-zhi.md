@@ -18,13 +18,19 @@ phpize
 
 /etc/init.d/php-fpm restart 或service php-fpm restart
 
-
-
 * 开机启动
 
 chkconfig --add /etc/init.d/php-fpm
 
 chkconfig php-fpm on
+
+* 查看php版本、模块、进程
+
+php -v
+
+php --modules
+
+ps -ef\|grep php-fpm
 
 * 
 
