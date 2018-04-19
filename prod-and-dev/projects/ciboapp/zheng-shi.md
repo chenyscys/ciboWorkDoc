@@ -14,7 +14,7 @@ php artisan config:cache  --env=production
 
 php artisan route:cache
 
-* php编译缓存
+* php编译清理缓存
 
 cd /www/ciboapp/branches/201801/
 
