@@ -34,3 +34,9 @@ du -sh \*
 
 find / -name
 
+
+
+* 拷贝目录
+
+cp -Rf x1 x2 复制目录/文件
+
