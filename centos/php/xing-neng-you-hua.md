@@ -1,8 +1,6 @@
 vi /etc/php-fpm.d/www.conf
 
-
-
-修改配置
+修改:
 
 pm=dynamic
 
