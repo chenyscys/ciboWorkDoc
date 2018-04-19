@@ -4,6 +4,7 @@
 * [laravel](laravel.md)
   * [日志log](laravel/pei-zhi-xiang-guan.md)
   * [API文档](laravel/apiwen-dang.md)
+  * [composer](laravel/composer.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
