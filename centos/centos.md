@@ -34,7 +34,7 @@ du -sh \*
 
 find / -name
 
-* 拷贝目录
+* 拷贝目录/文件
 
-cp -Rf x1 x2 
+cp -Rf x1 x2
 
