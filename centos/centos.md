@@ -1,12 +1,10 @@
-
-
 * 重启
 
 shutdown -r now
 
 端口
 
-centos6.5
+_centos6.5_
 
 新增 /sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 
