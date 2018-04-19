@@ -12,7 +12,7 @@ chmod -R 777 public storage
 
 * laravel缓存清理
 
-php artisan config:cache  --env=production
+php artisan config:cache  --env=development
 
 php artisan route:cache
 
