@@ -12,5 +12,5 @@ killall svnserve
 
 * 清理
 
-svn cleanup /www/cibowe/release1.0.1
+svn cleanup 目录
 
