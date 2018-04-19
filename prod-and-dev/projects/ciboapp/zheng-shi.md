@@ -1,4 +1,4 @@
-_3.27,3.28,3.32_
+_3.27,3.28,3.32 http://service.cibohome.com_
 
 * 发布更新svn
 
