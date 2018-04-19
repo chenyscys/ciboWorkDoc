@@ -1,4 +1,6 @@
 进入根目录
 
-/storage/logs
+cd /www/ciboapp/branches/201801
+
+cd /storage/logs
 
