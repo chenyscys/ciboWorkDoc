@@ -27,5 +27,4 @@
   * android
 * [wechat](wechat.md)
   * [easywechat](wechat/easywechat.md)
-* [prod && dev](prod-andand-dev.md)
 
