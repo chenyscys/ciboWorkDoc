@@ -1,4 +1,4 @@
-_3.29_
+_3.29 http://192.168.3.29:8001/_
 
 * 更新命令
 
@@ -13,10 +13,4 @@ vi .env.development
 ![](/assets/laravel微信模拟授权.png)
 
 php artisan config:cache  --env=development
-
-
-
-
-
-
 
