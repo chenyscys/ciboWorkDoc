@@ -28,6 +28,7 @@
     * [fastdfs扩展安装](centos/php/fastdfskuo-zhan-an-zhuang.md)
     * [composer安装](centos/php/composeran-zhuang.md)
     * [性能优化](centos/php/xing-neng-you-hua.md)
+  * [svn](centos/svn.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
