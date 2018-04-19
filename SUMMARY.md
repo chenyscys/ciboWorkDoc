@@ -3,6 +3,7 @@
 * [About this book](README.md)
 * [laravel](laravel.md)
   * [配置相关](laravel/pei-zhi-xiang-guan.md)
+  * [缓存](laravel/huan-cun.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
@@ -14,7 +15,6 @@
   * [解决WIN7不能使用Gitbook Editor](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
   * [关于更新、推送Gitbook Editor时冲突的解决](guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
 * [service modules](centos.md)
-  * [nginx](centos/nginx.md)
   * [redis](centos/redis.md)
   * [fastdfs](centos/fastdfs.md)
   * [mysql](centos/mysql.md)
@@ -25,5 +25,4 @@
 * [wechat](wechat.md)
   * easywechat
 * [prod && dev](prod-andand-dev.md)
-  * [laravel](prod-andand-dev/readme.md)
 
