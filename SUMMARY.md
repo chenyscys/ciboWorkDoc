@@ -26,6 +26,7 @@
     * [配置](centos/php/pei-zhi.md)
     * [predis安装](centos/php/predis.md)
     * [fastdfs扩展安装](centos/php/fastdfskuo-zhan-an-zhuang.md)
+    * [composer安装](centos/php/composeran-zhuang.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
