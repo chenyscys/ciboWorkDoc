@@ -9,4 +9,15 @@
 * [杂项](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
 * test
+* [centos](centos.md)
+  * [nginx](centos/nginx.md)
+  * [redis](centos/redis.md)
+  * [fastdfs](centos/fastdfs.md)
+  * [mysql](centos/mysql.md)
+  * [elk](centos/elk.md)
+* [app](app.md)
+  * [ios](app/ios.md)
+  * android
+* [wechat](wechat.md)
+  * easywechat
 
