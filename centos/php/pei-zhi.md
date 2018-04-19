@@ -18,3 +18,14 @@ phpize
 
 /etc/init.d/php-fpm restart 或service php-fpm restart
 
+
+
+* 开机启动
+
+chkconfig --add /etc/init.d/php-fpm
+
+chkconfig php-fpm on
+
+* 
+
+
