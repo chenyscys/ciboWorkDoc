@@ -23,7 +23,7 @@
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
   * [centos](centos/centos.md)
   * [php](centos/php.md)
-    * 配置
+    * [配置](centos/php/pei-zhi.md)
 * [app](app.md)
   * [ios](app/ios.md)
   * android
