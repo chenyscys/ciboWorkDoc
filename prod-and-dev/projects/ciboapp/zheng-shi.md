@@ -1,4 +1,4 @@
-* 发布上线命令svn
+* 发布命令svn
 
 svn update svn://192.168.3.29/svn/ciboapp/branches/201801 /www/ciboapp/branches/201801
 
