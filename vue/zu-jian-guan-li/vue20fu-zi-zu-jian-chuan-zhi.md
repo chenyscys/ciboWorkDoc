@@ -6,13 +6,43 @@
 
 在抽组件的过程中，父子组件传值方面总是容易忘记，所以记录下来日后好翻阅，也可以供大家参考。
 
-下面我就以这个组件为例子进行说明。
+下面我就以这个组件为例子进行说明。vsForm.vue为父组件，downBlock.vue为子组件。
+
+**父组件通过 props 向下传递数据给子组件，子组件通过 events 给父组件发送消息。如下图所示：**
 
 ![](/assets/mind.png)
 
-**父组件通过 props 向下传递数据给子组件，子组件通过 events 给父组件发送消息。**
+
 
 **1.父组件向子组件传值之props**
+
+父组件
+
+![](/assets/parent.png)![](/assets/parent2.png)
+
+&lt;downBlock @choose="getData" @key="keyClick" :signUp="isSignUp" :shoppeName="shoppe"&gt;&lt;/downBlock&gt;
+
+如代码所示，父组件通过v-i
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
