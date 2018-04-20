@@ -10,15 +10,9 @@ src=“/dist/static/music.mp3”   备：这个dist是vue打包自动生成出di
 
 mounted\(\){
 
-	let \_this = this;
-
-	\_this.$refs.aduio.play\(\);
-
-	\_this.$wechat.ready\(function\(\){
-
-	       \_this.$refs.audio.play\(\);
-
-	}\)
+```
+let _this = this;
+```
 
 }
 
