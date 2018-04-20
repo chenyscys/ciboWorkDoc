@@ -24,25 +24,27 @@
 
 子组件
 
-![](/assets/child.png)![](/assets/child2.png)（放大代码块\)
+![](/assets/child.png)
 
 props:{
 
-	signUp: { 
+```
+signUp: { 
 
-          type: Boolean,
+      type: Boolean,
 
-          default: false
+      default: false
 
-        },
+    },
 
-        shoppeName: {
+    shoppeName: {
 
-          type: String,
+      type: String,
 
-          default: ''}
-
+      default: ''
+    }
 }
+```
 
 子组件通过props获取父组件传过来的值。
 
