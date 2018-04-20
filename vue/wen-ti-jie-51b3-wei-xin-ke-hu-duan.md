@@ -6,23 +6,18 @@
 
 src=“/dist/static/music.mp3”   备：这个dist是vue打包自动生成出dist，里面是整个项目的资源
 
-2、if\(this.timeNum == 0\){
+2、
 
-    			this.resultBox = true;
+```
+let that = this;
+that.$refs.audio.play();
+this.$wechat.ready(function () {
+     that.$refs.audio.play();
+});
 
-				this.shareBox = true;
 
-    			this.playBtn = false;
-
-    			return;
-
-			}
-
-			this.beginGame = true;
-
-			this.playBtn = false;
-
-			cbevent.clickStat\('playGame'\);
+	
+```
 
 备: 以前是wx.ready    来使音乐播放, 现在变成  this.$wechat.ready  来播放音乐
 
