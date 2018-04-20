@@ -10,6 +10,7 @@
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
     * [qhActivity](vue/zhuang-tai-guan-li/qhactivity.md)
   * [组件管理](vue/zu-jian-guan-li.md)
+  * [问题解决-微信客户端](vue/wen-ti-jie-51b3-wei-xin-ke-hu-duan.md)
 * [others](za-xiang.md)
   * [gitbook](za-xiang/gitbook.md)
   * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
