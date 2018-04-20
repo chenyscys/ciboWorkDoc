@@ -6,37 +6,23 @@
 
 src=“/dist/static/music.mp3”   备：这个dist是vue打包自动生成出dist，里面是整个项目的资源
 
-2、`mounted(){`
+2、
 
-`        let \_this = this;`
+mounted\(\){
 
+	let \_this = this;
 
+	\_this.$refs.aduio.play\(\);
 
-`        \_this.$refs.aduio.play\(\);`
+	\_this.$wechat.ready\(function\(\){
 
+	       \_this.$refs.audio.play\(\);
 
+	}\)
 
-`        this.$wechat.ready\(function\(\){`
+}
 
+备: 以前是wx.ready    来使音乐播放, 现在变成  this.$wechat.ready  来播放音乐
 
-
-`            \_this.$refs.audio.play\(\);`
-
-
-
-`        }\)`
-
-
-
-`    }`
-
-
-
-   备: 以前是wx.ready    来使音乐播放, 现在变成  this.$wechat.ready  来播放音乐   
-
-
-
-  这样引用 , 可能本地会报错, 不用管 , 只管上传到服务器测试就好了  
-
-
+这样引用 , 可能本地会报错, 不用管 , 只管上传到服务器测试就好了
 
