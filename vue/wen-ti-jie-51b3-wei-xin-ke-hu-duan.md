@@ -10,17 +10,19 @@ src=“/dist/static/music.mp3”   备：这个dist是vue打包自动生成出di
 
 mounted\(\){
 
-			let \_this = this;
+```
+        let _this = this;
 
-			\_this.$refs.aduio.play\(\);
+        _this.$refs.aduio.play();
 
-			this.$wechat.ready\(function\(\){
+        this.$wechat.ready(function(){
 
-				\_this.$refs.audio.play\(\);
+            _this.$refs.audio.play();
 
-			}\)
+        })
 
-		}
+    }
+```
 
 备: 以前是wx.ready    来使音乐播放, 现在变成  this.$wechat.ready  来播放音乐
 
