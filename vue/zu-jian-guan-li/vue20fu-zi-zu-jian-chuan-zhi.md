@@ -12,9 +12,9 @@
 
 ![](/assets/mind.png)
 
-
-
 **1.父组件向子组件传值之props**
+
+
 
 父组件
 
@@ -22,29 +22,31 @@
 
 &lt;downBlock @choose="getData" @key="keyClick" :signUp="isSignUp" :shoppeName="shoppe"&gt;&lt;/downBlock&gt;
 
-如代码所示，父组件通过v-i
+如代码所示，父组件可以将动态绑定（v-bind）的数据，或者静态的数据传给子组件。
 
 
 
+子组件
+
+![](/assets/child.png)![](/assets/child2.png)（放大代码块的图）
+
+子组件通过props获取父组件传过来的值。
 
 
 
+**2.子组件向父组件传值之$emit**
+
+**vm.$emit\( event,\[ arg\] \) ** ，子组件使用 $emit 触发父组件的自定义事件，event为事件名称（String），arg为可选参数，可传可不传。
+
+子组件![](/assets/child3.png)
+
+![](/assets/child4.png)
+
+子组件通过click触发自己的chooseId方法，并将自己数据存储为shopData对象传给父组件。
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+父组件![](/assets/parent3.png)![](/assets/parent4.png)
 
 
 
