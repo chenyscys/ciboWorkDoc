@@ -24,6 +24,7 @@
   * [elk](centos/elk.md)
   * [nginx](centos/nginx.md)
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
+    * [访问地址重启Nginx](centos/nginx/fang-wen-di-zhi-zhong-qi-nginx.md)
   * [centos](centos/centos.md)
     * [xshell](centos/centos/xshell.md)
   * [php](centos/php.md)
