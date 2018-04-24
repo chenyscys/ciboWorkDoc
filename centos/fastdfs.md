@@ -30,7 +30,7 @@ netstat -tupln \| grep trackerd
 
 #### 开放端口
 
-cento6.5
+* cento6.5
 
 /sbin/iptables -I INPUT -p tcp --dport 22122 -j ACCEPT
 
