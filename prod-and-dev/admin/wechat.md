@@ -1,4 +1,4 @@
-\#\#\#\#\#世邦新测试号\#\#\#\#\#\#\#\#
+世邦测试号
 
 账号：testsummer@sina.com
 
@@ -12,11 +12,7 @@ AppSecret\(应用密钥\)7f935e324fff8cd2d8752a0ecf242c67
 
 EncodingAESKey:ENcf0LwkSr5eQt3AuCG9GYKSHB1nRIJWAkF9j88pNdK
 
-
-
-
-
-\#\#\#\#\#邦客生活\#\#\#\#\#\#\#\#
+邦客生活
 
 ou7XVjjk70jRivnHbTMFyTJXCBsY
 
@@ -24,13 +20,11 @@ ou7XVjjk70jRivnHbTMFyTJXCBsY
 
 服务号密码：cibohome8988308
 
+微信支付商户号    1246027102
 
+商户平台登录帐号    1246027102@1246027102
 
-微信支付商户号	1246027102
-
-商户平台登录帐号	1246027102@1246027102
-
-商户平台登录密码	354401
+商户平台登录密码    354401
 
 API密钥：5dr0p1ic98tphh91g7ospicwciim478v
 
