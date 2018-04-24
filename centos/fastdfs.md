@@ -48,3 +48,11 @@ chkconfig --add /etc/init.d/fdfs\_storaged
 
 chkconfig --add /etc/init.d/fdfs\_trackerd
 
+
+
+#### 日志查看
+
+cat /home/data/fastdfs/base4storage/logs/storaged.log
+
+cat /home/data/fastdfs/tracker/logs/trackerd.log
+
