@@ -20,6 +20,8 @@ ou7XVjjk70jRivnHbTMFyTJXCBsY
 
 服务号密码：cibohome8988308
 
+https://pay.weixin.qq.com/index.php/core/home/login
+
 微信支付商户号    1246027102
 
 商户平台登录帐号    1246027102@1246027102
