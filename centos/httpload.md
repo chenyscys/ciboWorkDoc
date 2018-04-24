@@ -1,7 +1,5 @@
 #### http\_load压力测试
 
-_3.29_
-
 * 进入目录
 
 cd /app/http\_load-12mar2006
