@@ -1,12 +1,8 @@
 [http://www.cleey.com/blog/single/id/753.html](http://www.cleey.com/blog/single/id/753.html)
 
-#### 安装fastdfs模块
-
-
+#### 安装fastdfs
 
 #### php安装fastdfs扩展
-
-
 
 phpize
 
@@ -17,8 +13,6 @@ make
 make install
 
 cat fastdfs\_client.ini &gt;&gt; /etc/php.ini
-
-
 
 #### 连接客户端client
 
