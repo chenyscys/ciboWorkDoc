@@ -12,7 +12,7 @@ make & make install
 
 ./configure --prefix=/app/soft/nginx --add-module=/app/fastdfs-nginx-module-master/src  --with-http\_image\_filter\_module
 
-#### 缓存
+#### 缓存模块
 
 ./configure --prefix=/app/soft/nginx --add-module=/app/ngx\_cache\_purge-2.3
 
