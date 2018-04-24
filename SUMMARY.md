@@ -32,7 +32,7 @@
     * [架构](centos/centos/jia-gou.md)
   * [php](centos/php.md)
     * [基本配置](centos/php/pei-zhi.md)
-    * [基本配置（新）](centos/php/ji-ben-pei-zhi-ff08-xin-ff09.md)
+    * [基本配置（7.4）](centos/php/ji-ben-pei-zhi-ff08-xin-ff09.md)
     * [predis安装](centos/php/predis.md)
     * [fastdfs扩展安装](centos/php/fastdfskuo-zhan-an-zhuang.md)
     * [composer安装](centos/php/composeran-zhuang.md)
