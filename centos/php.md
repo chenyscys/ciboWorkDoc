@@ -2,11 +2,23 @@ _centos 6.5_
 
 #### php配置
 
+
+
+#### 配置
+
 vi /etc/php.ini
 
-#### fpm配置
+#### centos6.5
 
 cd /etc/php-fpm.d/
+
+#### centos7.4
+
+cd /app/soft/php/etc/php-fpm.d/
+
+vi /app/soft/php/etc/php-fpm.conf
+
+
 
 #### 编译模块
 
@@ -24,7 +36,7 @@ phpize
 
 * centos6.5
 
-/etc/init.d/php-fpm restart 
+/etc/init.d/php-fpm restart
 
 service php-fpm restart
 
