@@ -38,3 +38,17 @@ netstat -tupln \| grep trackerd
 
 /etc/rc.d/init.d/iptables save
 
+
+
+开机启动
+
+echo "/usr/bin/fdfs\_storaged /etc/fdfs/storage.conf restart" &gt;&gt; /etc/rc.local
+
+echo "/usr/bin/fdfs\_trackerd /etc/fdfs/tracker.conf restart" &gt;&gt; /etc/rc.local
+
+
+
+chkconfig --add /etc/init.d/fdfs\_storaged
+
+chkconfig --add /etc/init.d/fdfs\_trackerd
+
