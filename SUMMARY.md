@@ -27,6 +27,7 @@
     * [开放端口重启Nginx](centos/nginx/fang-wen-di-zhi-zhong-qi-nginx.md)
   * [centos](centos/centos.md)
     * [xshell](centos/centos/xshell.md)
+    * [架构](centos/centos/jia-gou.md)
   * [php](centos/php.md)
     * [基本配置](centos/php/pei-zhi.md)
     * [predis安装](centos/php/predis.md)
