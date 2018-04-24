@@ -1,4 +1,4 @@
-#### 3.26 {#echo}
+_3.26_
 
 cd /app/soft/nginx/conf/conf.d
 
