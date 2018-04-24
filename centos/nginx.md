@@ -4,11 +4,11 @@
 
 cd /app/soft/nginx/conf/conf.d
 
-命令
+#### 命令
 
 * 启动
 
-/app/soft/nginx/sbin/nginx 
+/app/soft/nginx/sbin/nginx
 
 * 重启
 
@@ -17,6 +17,4 @@ cd /app/soft/nginx/conf/conf.d
 * 关闭
 
 /app/soft/nginx/sbin/nginx -s stop
-
-
 
