@@ -8,9 +8,9 @@ cd /app/soft/php/etc/php-fpm.d/
 
 systemctl restart php-fpm
 
+
+
 ./configure --with-php-config=/app/soft/php/bin/php-config
-
-
 
 php --modules
 
