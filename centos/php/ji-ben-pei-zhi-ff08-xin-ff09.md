@@ -10,6 +10,10 @@ vi /app/soft/php/etc/php-fpm.conf
 
 systemctl restart php-fpm
 
+systemctl start php-fpm
+
+systemctl stopphp-fpm
+
 #### 编译模块
 
 phpize
