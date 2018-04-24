@@ -4,7 +4,7 @@ shutdown -r now
 
 #### 端口
 
-_centos6.5_
+* _centos6.5_
 
 新增 /sbin/iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 
@@ -12,15 +12,11 @@ _centos6.5_
 
 查看端口 /etc/init.d/iptables status
 
-
-
-centos7
+* centos7
 
 firewall-cmd --permanent --add-port=2049/tcp
 
 firewall-cmd --reload
-
-
 
 #### CPU
 
