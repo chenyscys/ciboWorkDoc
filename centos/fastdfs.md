@@ -6,7 +6,7 @@ _3.34,3.35_
 
 [http://369369.blog.51cto.com/319630/771169/](http://369369.blog.51cto.com/319630/771169/)
 
-#### 配置目录
+配置目录
 
 cd /etc/fdfs/
 
@@ -53,4 +53,8 @@ chkconfig --add /etc/init.d/fdfs\_trackerd
 cat /home/data/fastdfs/base4storage/logs/storaged.log
 
 cat /home/data/fastdfs/tracker/logs/trackerd.log
+
+#### 测试上传
+
+fdfs\_upload\_file client.conf /app/1.jpg
 
