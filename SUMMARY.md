@@ -56,6 +56,6 @@
       * [正式](prod-and-dev/projects/ciboapp/zheng-shi.md)
       * [测试](prod-and-dev/projects/ciboapp/ce-shi.md)
       * [测试（模拟）](prod-and-dev/projects/ciboapp/ce-shi-ff08-mo-ni-ff09.md)
-    * [cibowe](prod-and-dev/projects/cibowe.md)
+    * [cibowww](prod-and-dev/projects/cibowe.md)
       * [正式](prod-and-dev/projects/cibowe/zheng-shi.md)
 
