@@ -19,6 +19,7 @@
   * [关于更新、推送Gitbook Editor时冲突的解决](guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
 * [server](centos.md)
   * [redis](centos/redis.md)
+    * redis集群
   * [fastdfs](centos/fastdfs.md)
   * [mysql](centos/mysql.md)
   * [elk](centos/elk.md)
