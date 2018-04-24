@@ -30,7 +30,11 @@ docker exec -it 1d4479188964 /bin/bash
 
 vi /etc/docker/daemon.json
 
-"registry-mirrors": \["\[[https://j5mqvjwe.mirror.aliyuncs.com"\]\(https://j5mqvjwe.mirror.aliyuncs.com"\)\](https://j5mqvjwe.mirror.aliyuncs.com"]%28https://j5mqvjwe.mirror.aliyuncs.com"%29\)\]
+{
+
+"registry-mirrors": \["https://j5mqvjwe.mirror.aliyuncs.com"\]
+
+}
 
 service docker restart
 
