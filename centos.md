@@ -1,5 +1,3 @@
-
-
 安装
 
 [_https://www.linuxidc.com/Linux/2015-05/117378.htm_](#)
@@ -22,11 +20,15 @@ chkconfig rpcbind on
 
 chkconfig nfs on
 
-挂载
+配置
+
+源服务器加入目标机器
 
 vi /etc/exports
 
 /home/www/ciboapp/ 192.168.3.29\(rw,sync,no\_root\_squash\)
+
+目标机器挂载源服务器
 
 showmount -e 10.10.10.12
 
