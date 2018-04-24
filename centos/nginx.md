@@ -18,3 +18,9 @@ cd /app/soft/nginx/conf/conf.d
 
 /app/soft/nginx/sbin/nginx -s stop
 
+
+
+#### 模块安装
+
+./configure --prefix=/app/soft/nginx ** --with-**
+
