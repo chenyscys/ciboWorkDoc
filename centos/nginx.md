@@ -4,7 +4,7 @@
 
 cd /app/soft/nginx/conf/conf.d
 
-#### 命令
+#### 启动命令
 
 * 启动
 
@@ -17,8 +17,6 @@ cd /app/soft/nginx/conf/conf.d
 * 关闭
 
 /app/soft/nginx/sbin/nginx -s stop
-
-
 
 #### 模块安装
 
