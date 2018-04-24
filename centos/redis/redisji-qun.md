@@ -1,6 +1,6 @@
-[http://yanshisan.blog.51cto.com/7879234/1377992](http://yanshisan.blog.51cto.com/7879234/1377992)
+#### [http://yanshisan.blog.51cto.com/7879234/1377992](http://yanshisan.blog.51cto.com/7879234/1377992)
 
-* ##### 集群配置文件
+#### 集群配置文件
 
 cd /etc/redis/
 
