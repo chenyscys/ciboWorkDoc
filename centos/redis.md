@@ -8,7 +8,7 @@ ps -ef\|grep redis
 
 进程位置
 
-cd /var/run/ 
+cd /var/run/
 
 日志位置
 
@@ -22,31 +22,23 @@ service redisd start
 
 service redisd stop
 
-
-
 查看详细信息
 
 ![](/assets/redis1.png)
 
-redis-cli -h 10.10.10.11 -p 6379  
-
-
+redis-cli -h 10.10.10.11 -p 6379
 
 压力测试
 
 redis-benchmark -t set -c 20 -n 1000000 -r 100000000
 
-
-
 开机启动
+
+[_http://www.tuicool.com/articles/aQbQ3u_](#)
 
 cp /etc/redis/redis.conf /etc/redis/6379.conf
 
 cp redis\_init\_script /etc/init.d/redisd
-
-http://www.tuicool.com/articles/aQbQ3u
-
-
 
 
 
