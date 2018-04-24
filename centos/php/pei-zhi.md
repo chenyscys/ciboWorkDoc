@@ -1,4 +1,6 @@
-#### centos 6.5
+_centos 6.5_
+
+
 
 * php配置
 
