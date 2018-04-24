@@ -24,7 +24,9 @@ phpize
 
 * centos6.5
 
-/etc/init.d/php-fpm restart 或service php-fpm restart
+/etc/init.d/php-fpm restart 
+
+service php-fpm restart
 
 * centos7.4
 
