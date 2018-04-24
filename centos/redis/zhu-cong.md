@@ -2,7 +2,7 @@
 
 [http://www.cnblogs.com/think-in-java/p/5123884.html](http://www.cnblogs.com/think-in-java/p/5123884.html)
 
-配置
+#### 配置
 
 slaveof 192.168.3.32 6379
 
