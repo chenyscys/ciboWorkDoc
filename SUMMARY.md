@@ -28,6 +28,8 @@
     * [php支持](centos/php/fastdfskuo-zhan-an-zhuang.md)
     * [集群](centos/fastdfs/ji-qun.md)
   * [mysql](centos/mysql.md)
+    * [集群](centos/mysql/ji-qun.md)
+    * [主从](centos/mysql/zhu-cong.md)
   * [elk](centos/elk.md)
   * [nginx](centos/nginx.md)
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
