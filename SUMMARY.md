@@ -22,6 +22,7 @@
     * [主从](centos/redis/zhu-cong.md)
     * [集群](centos/redis/redisji-qun.md)
   * [fastdfs](centos/fastdfs.md)
+    * [常见问题](centos/fastdfs/chang-jian-wen-ti.md)
   * [mysql](centos/mysql.md)
   * [elk](centos/elk.md)
   * [nginx](centos/nginx.md)
