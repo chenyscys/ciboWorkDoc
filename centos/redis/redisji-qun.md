@@ -1,4 +1,6 @@
-#### [http://yanshisan.blog.51cto.com/7879234/1377992](http://yanshisan.blog.51cto.com/7879234/1377992)
+##### [http://yanshisan.blog.51cto.com/7879234/1377992](http://yanshisan.blog.51cto.com/7879234/1377992)
+
+#### 
 
 #### 集群配置文件
 
@@ -18,7 +20,15 @@ redis-sentinel /etc/redis/sentinel15.conf
 
 redis-sentinel /etc/redis/sentinel11.conf
 
-#### 查看进程
+
+
+
+
+
+
+#### 查看进程/集群信息
 
 ps -ef\|grep sentinel
+
+redis-cli -h 10.10.10.13 info replication
 
