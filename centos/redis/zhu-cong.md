@@ -4,5 +4,5 @@
 
 #### 配置
 
-slaveof 主redis的ip地址 6379
+eg：slaveof 主redis的ip地址 6379
 
