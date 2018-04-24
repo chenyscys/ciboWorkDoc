@@ -26,3 +26,13 @@ docker rmi xx
 
 docker exec -it 1d4479188964 /bin/bash
 
+
+
+#### 国内镜像源  
+
+vi /etc/docker/daemon.json
+
+"registry-mirrors": \["https://j5mqvjwe.mirror.aliyuncs.com"\]
+
+service docker restart
+
