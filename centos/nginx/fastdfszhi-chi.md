@@ -1,4 +1,4 @@
-安装fastdfs module模块
+fastdfs支持
 
 cd /app/soft/nginx/conf
 
@@ -6,9 +6,13 @@ cd /app/soft/nginx/conf
 
 make & make install
 
-安装图片裁剪image\_filter
+缩略图image\_filter
 
-_http://blog.csdn.net/clevercode/article/details/52278482_
+[http://blog.csdn.net/clevercode/article/details/52278482](http://blog.csdn.net/clevercode/article/details/52278482)
 
 ./configure --prefix=/app/soft/nginx --add-module=/app/fastdfs-nginx-module-master/src  --with-http\_image\_filter\_module
+
+缓存
+
+./configure --prefix=/app/soft/nginx --add-module=/app/ngx\_cache\_purge-2.3
 
