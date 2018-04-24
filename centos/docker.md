@@ -16,6 +16,8 @@ yum -y remove xxxx
 
 docker ps
 
+docker ps -a
+
 #### 删除镜像
 
 docker rmi xx
