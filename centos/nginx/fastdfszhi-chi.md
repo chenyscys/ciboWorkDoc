@@ -16,3 +16,13 @@ make & make install
 
 ./configure --prefix=/app/soft/nginx --add-module=/app/ngx\_cache\_purge-2.3
 
+
+
+#### 开放端口
+
+firewall-cmd --add-port=22122/tcp --permanent
+
+firewall-cmd --add-port=23000/tcp --permanent
+
+firewall-cmd --add-port=80/tcp --permanent
+
