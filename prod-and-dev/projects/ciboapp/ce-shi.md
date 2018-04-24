@@ -1,22 +1,22 @@
-_3.29 http://dev1.cibohome.com_
+_3.29 _[http://dev1.cibohome.com](http://dev1.cibohome.com)
 
-* 更新命令
+#### 发布
 
 update svn://192.168.3.29/svn/ciboapp/trunk /mnt/xvdb1/www/composer/ciboapp
 
-* 设置目录权限
+#### 设置目录权限
 
 cd /mnt/xvdb1/www/composer/ciboapp
 
 chmod -R 777 public storage
 
-* laravel缓存清理
+#### laravel缓存清理
 
 php artisan config:cache  --env=development
 
 php artisan route:cache
 
-* php编译缓存清理
+#### php编译缓存清理
 
 cd /mnt/xvdb1/www/composer/ciboapp
 
