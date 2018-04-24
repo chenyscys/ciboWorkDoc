@@ -12,6 +12,16 @@ _centos6.5_
 
 查看端口 /etc/init.d/iptables status
 
+
+
+centos7
+
+firewall-cmd --permanent --add-port=2049/tcp
+
+firewall-cmd --reload
+
+
+
 #### CPU
 
 grep 'physical id' /proc/cpuinfo \| sort -u \| wc -l   \#查看 CPU 物理个数
