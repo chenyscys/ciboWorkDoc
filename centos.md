@@ -1,7 +1,5 @@
 
 
-vi /etc/exports
-
 安装
 
 [_https://www.linuxidc.com/Linux/2015-05/117378.htm_](#)
@@ -25,6 +23,8 @@ chkconfig rpcbind on
 chkconfig nfs on
 
 挂载
+
+vi /etc/exports
 
 /home/www/ciboapp/ 192.168.3.29\(rw,sync,no\_root\_squash\)
 
