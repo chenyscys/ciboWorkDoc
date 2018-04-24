@@ -8,7 +8,7 @@ mkdir /www/cibowww/release/Apps/Runtime
 
 chmod 777 /www/cibowww/release/Apps/Runtime
 
-#### html生成
+#### html清理
 
 rm -rf /www/cibowww/release/Apps/Html/Cibo
 
