@@ -42,3 +42,9 @@ cp redis\_init\_script /etc/init.d/redisd
 
 
 
+开放端口
+
+firewall-cmd --add-port=6379/tcp --permanent
+
+firewall-cmd --add-port=26379/tcp --permanent
+
