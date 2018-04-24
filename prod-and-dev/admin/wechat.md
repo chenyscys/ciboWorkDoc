@@ -52,3 +52,37 @@ API密钥：5dr0p1ic98tphh91g7ospicwciim478v
 
 API密钥：onblpqdd2njruqe13hjlnempmgu5abrb
 
+
+
+
+
+世邦佰亚
+
+服务号账号：sumarc000396-2@sumarc-zh.com
+
+服务号密码：cibohome8988308
+
+wx7fc8de53750a6a6a
+
+f42c9961cdb5d2a6222634f663a00bb1
+
+
+
+微平台企业号：
+
+cibohome57@163.com    a123456700
+
+
+
+世邦佰亚OA企业号
+
+账号 612193111@qq.com 企业号密码：cibohome8988308
+
+
+
+世邦家居公众号
+
+cibohome8899@sina.com 
+
+cibohome8988308 
+
