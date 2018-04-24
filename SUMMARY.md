@@ -25,6 +25,7 @@
     * [常见问题](centos/fastdfs/chang-jian-wen-ti.md)
     * [nginx支持](centos/nginx/fastdfszhi-chi.md)
     * [php支持](centos/php/fastdfskuo-zhan-an-zhuang.md)
+    * [集群](centos/fastdfs/ji-qun.md)
   * [mysql](centos/mysql.md)
   * [elk](centos/elk.md)
   * [nginx](centos/nginx.md)
