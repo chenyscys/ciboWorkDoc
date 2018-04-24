@@ -38,7 +38,7 @@ cp /etc/redis/redis.conf /etc/redis/6379.conf
 
 cp redis\_init\_script /etc/init.d/redisd
 
-#### 开放端口
+#### 需要开放端口
 
 firewall-cmd --add-port=6379/tcp --permanent
 
