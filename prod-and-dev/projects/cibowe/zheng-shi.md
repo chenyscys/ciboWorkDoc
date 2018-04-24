@@ -4,7 +4,7 @@ svn update svn://192.168.3.29/svn/cibowww/tags/release /www/cibowww/release
 
 #### 缓存清理
 
-mkdir /www/cibowww/release/Apps/Runtime
+rm -rf /www/cibowww/release/Apps/Runtime && mkdir /www/cibowww/release/Apps/Runtime
 
 chmod 777 /www/cibowww/release/Apps/Runtime
 
