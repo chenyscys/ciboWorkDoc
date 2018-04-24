@@ -18,3 +18,9 @@ redis-sentinel /etc/redis/sentinel15.conf
 
 redis-sentinel /etc/redis/sentinel11.conf
 
+
+
+查看进程
+
+ps -ef\|grep sentinel
+
