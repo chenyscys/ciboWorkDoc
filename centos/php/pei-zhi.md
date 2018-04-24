@@ -32,7 +32,3 @@ php --modules
 
 ps -ef\|grep php-fpm
 
-
-
-
-
