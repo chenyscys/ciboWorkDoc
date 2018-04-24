@@ -2,23 +2,19 @@ _centos 6.5_
 
 #### php配置
 
-
-
 #### 配置
 
 vi /etc/php.ini
 
-#### centos6.5
+* centos6.5
 
 cd /etc/php-fpm.d/
 
-#### centos7.4
+* centos7.4
 
 cd /app/soft/php/etc/php-fpm.d/
 
 vi /app/soft/php/etc/php-fpm.conf
-
-
 
 #### 编译模块
 
