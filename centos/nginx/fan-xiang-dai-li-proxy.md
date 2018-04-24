@@ -1,6 +1,6 @@
 _3.26_
 
-#### 上、下线
+#### 服务上、下线
 
 cd /app/soft/nginx/conf/conf.d
 
