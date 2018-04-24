@@ -2,6 +2,8 @@
 
 #### 集群配置
 
+_集群的前提是redis先做好主从关系_
+
 cd /etc/redis/
 
 ![](/assets/sentinal.png)
@@ -10,7 +12,7 @@ cd /etc/redis/
 
 #### 启动哨兵集群
 
-_开启3个哨兵，当其中有2个哨兵\(三分之二）确认失败后，才切换主redis库（集群的前提是redis先做好主从关系）_
+_开启3个哨兵，当其中有2个哨兵\(三分之二）确认失败后，才切换主redis库（）_
 
 redis-sentinel /etc/redis/sentinel16.conf
 
