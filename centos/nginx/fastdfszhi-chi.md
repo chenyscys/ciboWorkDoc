@@ -1,4 +1,4 @@
-#### fastdfs支持
+#### Fastdfs支持
 
 cd /app/soft/nginx/conf
 
