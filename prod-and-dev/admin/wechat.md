@@ -32,9 +32,7 @@ ou7XVjjk70jRivnHbTMFyTJXCBsY
 
 API密钥：5dr0p1ic98tphh91g7ospicwciim478v
 
-
-
-帮客空间
+#### 帮客空间
 
 登陆账号：cibohome@sina.com
 
@@ -42,13 +40,15 @@ API密钥：5dr0p1ic98tphh91g7ospicwciim478v
 
 那个网页的账号是：cetvcasnak@163.com   609421586
 
+* 支付平台
+
 商户平台登录帐号
 
- 1371919602@1371919602 
+1371919602@1371919602
 
 商户平台登录密码
 
- 118235 
+118235
 
-API密钥：onblpqdd2njruqe13hjlnempmgu5abrb 
+API密钥：onblpqdd2njruqe13hjlnempmgu5abrb
 
