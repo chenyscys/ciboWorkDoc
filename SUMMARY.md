@@ -39,7 +39,7 @@
   * [http\_load](centos/httpload.md)
 * [app](app.md)
   * [ios](app/ios.md)
-  * android
+  * [android](app/android.md)
 * [wechat](wechat.md)
   * [easywechat](wechat/easywechat.md)
 * [prod & dev](prod-and-dev.md)
