@@ -8,13 +8,11 @@ vi /app/soft/php/etc/php-fpm.conf
 
 #### 启动命令
 
-
-
 #### 编译模块
 
 phpize
 
-./configure --with-php-config=/app/soft/php/bin/php-config
+
 
 #### 查看命令
 

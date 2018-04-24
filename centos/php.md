@@ -10,9 +10,17 @@ cd /etc/php-fpm.d/
 
 #### 编译模块
 
+
+
 phpize
 
+centos6.5
+
 ./configure  --with-php-config=/usr/bin/php-config
+
+centos7.4
+
+./configure --with-php-config=/app/soft/php/bin/php-config
 
 #### 启动
 
