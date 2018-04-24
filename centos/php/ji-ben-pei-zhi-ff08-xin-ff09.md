@@ -12,7 +12,7 @@ systemctl restart php-fpm
 
 systemctl start php-fpm
 
-systemctl stopphp-fpm
+systemctl stop php-fpm
 
 #### 编译模块
 
