@@ -14,9 +14,19 @@ phpize
 
 ./configure  --with-php-config=/usr/bin/php-config
 
-#### 重启php
+#### 启动
+
+* centos6.5
 
 /etc/init.d/php-fpm restart 或service php-fpm restart
+
+* centos7.4
+
+systemctl restart php-fpm
+
+systemctl start php-fpm
+
+systemctl stop php-fpm
 
 #### 开机启动
 
