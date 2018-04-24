@@ -1,3 +1,5 @@
+#### centos7.4
+
 #### 配置目录、文件
 
 cd /app/soft/php/etc/php-fpm.d/
