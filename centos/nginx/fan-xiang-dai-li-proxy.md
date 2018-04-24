@@ -1,4 +1,4 @@
-#### 3.26服务器 {#echo}
+#### 3.26 {#echo}
 
 cd /app/soft/nginx/conf/conf.d
 
