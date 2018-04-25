@@ -1,4 +1,4 @@
-* 扩展模块
+#### 扩展安装
 
 composer dump-autoload
 
