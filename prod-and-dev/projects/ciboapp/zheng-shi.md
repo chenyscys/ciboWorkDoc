@@ -26,3 +26,7 @@ svn update svn://192.168.3.29/svn/ciboapp/branches/201801 /www/ciboapp/branches/
 
 chmod -R 777 storage
 
+#### 常见问题
+
+内存满了后，access\_token会缓存不了
+
