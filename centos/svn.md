@@ -24,3 +24,5 @@ cd /mnt/xvdb1/svndata/svn/conf
 
 修改authz、passwd文件
 
+![](/assets/svn1.png)![](/assets/svn2.png)
+
