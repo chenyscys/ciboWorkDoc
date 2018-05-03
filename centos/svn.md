@@ -16,3 +16,11 @@ killall svnserve
 
 svn cleanup 目录
 
+账号管理
+
+cd /mnt/xvdb1/svndata/svn/conf
+
+![](/assets/svn.png)
+
+修改authz、passwd文件
+
