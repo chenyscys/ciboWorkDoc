@@ -12,9 +12,7 @@
 
 ![](/assets/yunxing2.png)
 
-```
 \(3\)输入密码：123456
-```
 
 ![](/assets/yunxing3.png)
 
