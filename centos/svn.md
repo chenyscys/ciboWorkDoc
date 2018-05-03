@@ -26,3 +26,5 @@ cd /mnt/xvdb1/svndata/svn/conf
 
 ![](/assets/svn1.png)![](/assets/svn2.png)
 
+保存重启生效
+
