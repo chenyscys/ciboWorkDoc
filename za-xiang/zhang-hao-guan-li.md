@@ -20,7 +20,7 @@
 
 #### 翻墙
 
-工具Shadowsocks
+工具Shadowsocks（\\192.168.3.50\技术部共享资源\网页技术部\开发工具tools\Shadowsocks-win-2.5.2）
 
 ![](/assets/翻墙.png)
 
