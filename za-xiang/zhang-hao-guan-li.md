@@ -20,6 +20,8 @@
 
 #### 翻墙
 
+工具Shadowsocks
+
 ![](/assets/翻墙.png)
 
 密码abc123/
