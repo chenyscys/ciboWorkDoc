@@ -6,7 +6,7 @@
 
 服务号密码：cibohome8988308
 
-* 世邦新测试号
+* 世邦测试号
 
 账号：testsummer@sina.com
 
