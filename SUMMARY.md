@@ -18,6 +18,7 @@
   * [解决WIN7不能使用Gitbook Editor](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
   * [关于更新、推送Gitbook Editor时冲突的解决](guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
   * [账号](za-xiang/zhang-hao-guan-li.md)
+  * [远程解密步骤](za-xiang/yuan-cheng-jie-mi-bu-zou.md)
 * [server](centos.md)
   * [redis](centos/redis.md)
     * [主从](centos/redis/zhu-cong.md)
