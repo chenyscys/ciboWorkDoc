@@ -42,6 +42,7 @@
   * [php](centos/php.md)
     * [composer安装](centos/php/composeran-zhuang.md)
     * [性能优化](centos/php/xing-neng-you-hua.md)
+    * [修改配置](centos/php/xiu-gai-pei-zhi.md)
   * [svn](centos/svn.md)
   * [http\_load](centos/httpload.md)
   * [docker](centos/docker.md)
