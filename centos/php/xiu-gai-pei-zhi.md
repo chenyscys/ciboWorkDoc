@@ -10,5 +10,7 @@ vi /etc/php.ini
 /etc/init.d/php-fpm restart
 ```
 
+> 查看配置信息：域名/test.php
+
 
 
