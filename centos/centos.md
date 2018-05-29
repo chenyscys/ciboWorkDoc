@@ -44,3 +44,7 @@ find / -name
 
 cp -Rf x1 x2
 
+#### 查看系统版本
+
+cat /etc/redhat-release
+
