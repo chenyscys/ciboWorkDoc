@@ -5,7 +5,3 @@
 
 重启tracker、storage
 
-/usr/bin/fdfs\_trackerd /etc/fdfs/tracker.conf restart
-
-/usr/bin/fdfs\_storaged /etc/fdfs/storage.conf restart
-
