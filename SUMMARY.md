@@ -5,6 +5,7 @@
   * [日志log](laravel/pei-zhi-xiang-guan.md)
   * [API文档](laravel/apiwen-dang.md)
   * [队列](laravel/dui-lie.md)
+  * [连接SQL Server](laravel/lian-jiesql-server.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
