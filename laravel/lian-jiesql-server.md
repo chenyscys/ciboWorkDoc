@@ -13,7 +13,7 @@
 ]
 ```
 
-2.web服务器开启 pdo\_sqlsrv 扩展
+2.web 服务器开启 pdo\_sqlsrv 扩展
 
 > windows 环境
 
@@ -23,7 +23,9 @@ extension=php_pdo_sqlsrv_7_nts_x86.dll
 # 访问 https://www.microsoft.com/zh-CN/download/details.aspx?id=36434，下载安装 ODBC Driver
 ```
 
-3.模型文件
+3.重启 web 服务器
+
+4.模型文件
 
 ```
 <?php
