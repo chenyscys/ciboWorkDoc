@@ -1,4 +1,4 @@
-> env 文件添加数据库配置，config/database.php 文件添加
+1.env 文件添加数据库配置，config/database.php 文件添加
 
 ```
 'sqlsrv' => [
@@ -13,10 +13,37 @@
 ]
 ```
 
-> web服务器开启 pdo\_sqlsrv 扩展，php.ini文件，添加
+2.web服务器开启 pdo\_sqlsrv 扩展
+
+> windows 环境
 
 ```
+# 编辑 php.ini 文件，添加 php 版本对应的扩展
 extension=php_pdo_sqlsrv_7_nts_x86.dll
+# 访问 https://www.microsoft.com/zh-CN/download/details.aspx?id=36434，下载安装 ODBC Driver
+```
+
+3.模型文件
+
+```
+<?php
+
+namespace App\Entities;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ModelName extends Model
+{
+    /**
+     * @var string
+     */
+    protected $connection = 'sqlsrv';
+
+    /**
+     * @var string
+     */
+    public $table = 'table_name';
+}
 ```
 
 
