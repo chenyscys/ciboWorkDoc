@@ -13,9 +13,7 @@
 ]
 ```
 
-> web服务器开启 pdo\_sqlsrv 扩展
->
-> 本地php环境，php.ini文件，添加
+> web服务器开启 pdo\_sqlsrv 扩展，php.ini文件，添加
 
 ```
 extension=php_pdo_sqlsrv_7_nts_x86.dll
