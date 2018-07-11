@@ -47,6 +47,3 @@ class ModelName extends Model
     public $table = 'table_name';
 }
 ```
-
-
-
