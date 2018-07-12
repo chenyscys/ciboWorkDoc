@@ -47,3 +47,8 @@ class ModelName extends Model
     public $table = 'table_name';
 }
 ```
+
+> 参考链接：https://phpartisan.cn/news/24.html
+
+
+
