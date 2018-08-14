@@ -64,5 +64,6 @@
     * [cibowww](prod-and-dev/projects/cibowe.md)
       * [正式](prod-and-dev/projects/cibowe/zheng-shi.md)
 * [minipro](minipro.md)
-  * [文件目录结构](minipro/kai-fa-gui-fan.md)
+  * [文件目录结构](minipro/wen-jian-mu-lu-jie-gou.md)
+  * [开发规范](minipro/kai-fa-gui-fan.md)
 
