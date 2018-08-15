@@ -35,5 +35,22 @@ memberInfo: 用户信息，
 session_key：用户身份认证，用于请求接口，普通请求用不上，可以忽略。
 ```
 
+3、工具类方法都在 `/resource/js/util.js` ，现目前有 formatTime 格式化时间， formatLocation 格式化坐标，delkey删除多个对象属性。
+
+formatTime \(time\);     //time为时间戳
+
+formatLocation \(longitude, latitude\);            //参数分别为横竖坐标
+
+delkey \(obj, keys\);       //obj为对象，keys为要删除的属性数组。如下：
+
+```
+var abc = {
+    a: 123,
+    b: 223,
+    c: 323
+};
+delkey (abc,['a','b']);
+```
+
 
 
