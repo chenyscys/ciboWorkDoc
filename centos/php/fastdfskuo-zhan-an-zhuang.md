@@ -4,7 +4,7 @@
 
 cd /etc/fdfs
 
-rz client.conf
+cp client.conf.sample client.conf
 
 #### php安装fastdfs扩展
 
