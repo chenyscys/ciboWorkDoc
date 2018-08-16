@@ -13,8 +13,7 @@ http({
     },
     method: 'POST',                        //请求方式，get，post等。
     success: function(data){               //成功回调，data为接口返回数据,非必填
-
-    },
+vho},
     fail: function(data){                  //错误回调，data为接口返回信息，非必填
 
     },
@@ -50,5 +49,5 @@ var abc = {
 delkey (abc,['a','b']);
 ```
 
-4、我们后续再继续补充完整它。
+4、我们后续再继续补充完整它吧。
 
