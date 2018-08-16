@@ -6,6 +6,8 @@ cd /etc/fdfs
 
 cp client.conf.sample client.conf
 
+vi client.conf
+
 #### php安装fastdfs扩展
 
 phpize
