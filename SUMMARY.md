@@ -17,7 +17,7 @@
   * [gitbook](za-xiang/gitbook.md)
   * [vue打包更新步骤](za-xiang/vueda-bao-geng-xin.md)
   * [解决WIN7不能使用Gitbook Editor](za-xiang/shi-yong-gitbook-editor-de-zhu-yi-shi-xiang.md)
-  * [关于更新、推送Gitbook Editor时冲突的解决](guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
+  * [关于更新、推送Gitbook Editor时冲突的解决](za-xiang/guan-yu-geng-xin-3001-tui-song-gitbook-editor-shi-chong-tu-de-jie-jue.md)
   * [账号](za-xiang/zhang-hao-guan-li.md)
   * [远程解密步骤](za-xiang/yuan-cheng-jie-mi-bu-zou.md)
   * [关于gitbook更新无效的问题](za-xiang/guan-yu-gitbook-geng-xin-wu-xiao-de-wen-ti.md)
