@@ -59,12 +59,14 @@
 * [prod & dev](prod-and-dev.md)
   * [projects](prod-and-dev/projects.md)
     * [ciboapp](prod-and-dev/projects/ciboapp.md)
-      * [正式](prod-and-dev/projects/ciboapp/zheng-shi.md)
-      * [测试](prod-and-dev/projects/ciboapp/ce-shi.md)
-      * [测试（模拟）](prod-and-dev/projects/ciboapp/ce-shi-ff08-mo-ni-ff09.md)
+      * [production](prod-and-dev/projects/ciboapp/zheng-shi.md)
+      * [development](prod-and-dev/projects/ciboapp/ce-shi.md)
+      * [development1](prod-and-dev/projects/ciboapp/ce-shi-ff08-mo-ni-ff09.md)
     * [cibowww](prod-and-dev/projects/cibowe.md)
-      * [正式](prod-and-dev/projects/cibowe/zheng-shi.md)
+      * [production](prod-and-dev/projects/cibowe/zheng-shi.md)
     * [oa](prod-and-dev/projects/oa.md)
+      * production
+      * development
 * [minipro](minipro.md)
   * [文件目录结构](minipro/wen-jian-mu-lu-jie-gou.md)
   * [开发规范](minipro/kai-fa-gui-fan.md)
