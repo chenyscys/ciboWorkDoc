@@ -2,6 +2,10 @@
 
 #### 安装fastdfs
 
+cd /etc/fdfs
+
+rz client.conf
+
 #### php安装fastdfs扩展
 
 phpize
