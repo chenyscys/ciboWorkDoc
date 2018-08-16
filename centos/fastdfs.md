@@ -2,19 +2,11 @@ _3.34,3.35_
 
 #### 安装
 
-
-
 [http://blog.csdn.net/ricciozhang/article/details/49402273](http://blog.csdn.net/ricciozhang/article/details/49402273)
 
 [http://369369.blog.51cto.com/319630/771169/](http://369369.blog.51cto.com/319630/771169/)
 
-
-
-
-
-先安装libfastcommon
-
-
+libfastcommon
 
 #### 配置目录
 
