@@ -44,6 +44,8 @@ vi 8012.cibohome.conf
 
 ![](/assets/8012.png)
 
+修改完毕后，重启nginx即可
+
 #### 五、正常访问
 
 
