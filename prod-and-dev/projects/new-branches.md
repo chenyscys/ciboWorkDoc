@@ -1,5 +1,9 @@
 #### 一、创建分支![](/assets/新建分支.png)![](/assets/分支命名.png)
 
+#### 
+
+代码bug修改，在这个分支上修复，再合并到trunk。
+
 #### 二、取出分支
 
 ![](/assets/取出分支.png)
@@ -10,23 +14,25 @@ checkout分支，并进行相关文件修改配置、删除
 
 #### 三、部署到服务器，并配置
 
+* 取出项目
+
 svn co svn://192.168.3.29/svn/summer\_system/oa/branches/{分支名} /home/www/oa/branches/{分支名}
 
-安装laravel扩展
+* 安装laravel扩展
 
 cd /home/www/oa/branches/{分支名}
 
 composer install  或 composer update
 
-设置目录权限
+* 设置目录权限
 
 chmod -R 777 public storage
 
-清理缓存
+* 清理缓存
 
 php artisan config:cache  --env=production
 
-配置socket地址
+* 配置socket地址
 
 ![](/assets/socket.png)
 
