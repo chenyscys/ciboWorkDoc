@@ -40,7 +40,9 @@ cd /app/soft/nginx/conf/conf.d/
 
 修改项目文件，eg
 
-vi 8012.cibohome.conf  
+vi 8012.cibohome.conf
+
+![](/assets/8012.png)
 
 #### 五、正常访问
 
