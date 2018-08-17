@@ -38,6 +38,7 @@
   * [nginx](centos/nginx.md)
     * [反向代理proxy](centos/nginx/fan-xiang-dai-li-proxy.md)
     * [开放端口重启Nginx](centos/nginx/fang-wen-di-zhi-zhong-qi-nginx.md)
+    * [nginx配置http请求header参数](centos/nginx/nginxpei-zhi-http-qing-qiu-header-can-shu.md)
   * [centos](centos/centos.md)
     * [xshell](centos/centos/xshell.md)
     * [架构](centos/centos/jia-gou.md)
