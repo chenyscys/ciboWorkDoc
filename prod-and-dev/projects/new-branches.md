@@ -8,7 +8,7 @@ checkout分支，并进行相关文件修改配置、删除
 
 ![](/assets/配置文件.png)
 
-#### 三、取出到服务器，并配置
+#### 三、部署到服务器，并配置
 
 svn co svn://192.168.3.29/svn/summer\_system/oa/branches/{分支名} /home/www/oa/branches/{分支名}
 
