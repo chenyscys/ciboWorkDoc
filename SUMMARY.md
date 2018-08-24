@@ -31,7 +31,7 @@
     * [nginx支持](centos/nginx/fastdfszhi-chi.md)
     * [php支持](centos/php/fastdfskuo-zhan-an-zhuang.md)
     * [集群](centos/fastdfs/ji-qun.md)
-    * [从零开始搭建fastdfs](centos/fastdfs/cong-ling-kai-shi-da-jian-fastdfs.md)
+    * [从零开始搭建fastdfs（一）](centos/fastdfs/cong-ling-kai-shi-da-jian-fastdfs.md)
   * [mysql](centos/mysql.md)
     * [集群](centos/mysql/ji-qun.md)
     * [主从](centos/mysql/zhu-cong.md)
