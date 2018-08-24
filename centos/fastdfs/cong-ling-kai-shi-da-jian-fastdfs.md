@@ -123,7 +123,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    这里，启动之后查看进程命令可能发现没执行成功，这时可以先执行停止命令，再查看，然后再启动就可以了。启动成功之后，tracker文件夹中就会自动创建data跟logs文件夹。
 
-6. 设置tracker开机启动：`cd /ect/init.d/ chkconfig -add fdfs_strackerd chkconfig fdfs_trackerd on`   
+6. 设置tracker开机启动：`cd /ect/init.d/ chkconfig -add fdfs_strackerd chkconfig fdfs_trackerd on`  
    ps:这里配置完之后，重启发现没有开机启动~~，有小伙伴知道原因的可以告知下~
 
 7. tracker.conf配置文件参数解释可以找官方文档，地址为：
@@ -167,7 +167,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    启动成功之后，storage文件夹中就会自动创建data跟logs文件夹。
 
-6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`   
+6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`  
    ps:这里配置完之后，重启发现没有开机启动~~，有小伙伴知道原因的可以告知下。
 
 7. storage.conf配置文件参数解释可以找官方文档，地址为：
@@ -194,21 +194,10 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
    /usr/local/bin/fdfs_upload_file /etc/fdfs/client.conf /etc/fdfs/client.conf.sample
    ```
 
-5. 启动storage，并检查是否配置成功
+5. 这里上传的时候，假如只开了一台tracker，就会报错，另一个tracker\_server还没有配置的时候，就会出现上传，同步失败的情况。
 
-   ```
-   启动storage命令：/etc/init.d/fdfs_storaged start
-   查看进程命令：ps -el | grep fdfs
-   停止storage命令：/etc/init.d/fdfs_storaged stop
-   ```
-
-   启动成功之后，storage文件夹中就会自动创建data跟logs文件夹。
-
-6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`
-
-7. storage.conf配置文件参数解释可以找官方文档，地址为：
-
-   [http://fredlong.iteye.com/blog/2287899](http://fredlong.iteye.com/blog/2287899)
+6. 配置没问题，上传同步成功的话就会出现该文件的路径：  
+   `group1/M00/00/00/wKjHglYshRGAfbrTAAAFtTzeg5c.sample`
 
 
 
