@@ -110,7 +110,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
    ```
    查看端口：firewall-cmd --list-ports
    开放端口：firewall-cmd --zone=public --add-port=22122/tcp --permanent   (permanent表示永久生效)
-   重启firewall：firewall-cmd --reload
+   重启：firewall：firewall-cmd --reload
    ```
 
 5. 启动tracker，并检查是否配置成功
@@ -151,10 +151,6 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
    开放端口：firewall-cmd --zone=public --add-port=23000/tcp --permanent   (permanent表示永久生效)
    重启：firewall：firewall-cmd --reload
    ```
-
-
-
-
 
 
 
