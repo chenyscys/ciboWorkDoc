@@ -125,6 +125,10 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
 6. 设置tracker开机启动：`cd /ect/init.d/ chkconfig -add fdfs_strackerd chkconfig fdfs_trackerd on`
 
+7. tracker.conf配置文件参数解释可以找官方文档，地址为：
+
+   [http://bbs.chinaunix.net/thread-1941456-1-1.html](http://bbs.chinaunix.net/thread-1941456-1-1.html)
+
 ### 六、配置storage
 
 1. 进入配置目录，`cd /etc/fdfs/`
@@ -151,6 +155,67 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
    开放端口：firewall-cmd --zone=public --add-port=23000/tcp --permanent   (permanent表示永久生效)
    重启firewall：firewall-cmd --reload
    ```
+
+5. 启动storage，并检查是否配置成功
+
+   ```
+   启动storage命令：/etc/init.d/fdfs_storaged start
+   查看进程命令：ps -el | grep fdfs
+   停止storage命令：/etc/init.d/fdfs_storaged stop
+   ```
+
+   启动成功之后，storage文件夹中就会自动创建data跟logs文件夹。
+
+6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`
+
+7. storage.conf配置文件参数解释可以找官方文档，地址为：
+
+   [http://fredlong.iteye.com/blog/2287899](http://fredlong.iteye.com/blog/2287899)
+
+### 六、配置client
+
+1. 进入配置目录，`cd /etc/fdfs/`
+2. 复制一份 client.conf.sample 命名为 client.conf，`cp client.conf.sample client.conf`
+3. 编辑修改client.conf：
+
+   ```
+   group_name=group1    //这里group_name的值要跟tracker中的store_group统一
+   base_path=/home/fastdfs/storage
+   store_path0=/home/fastdfs/storage
+   store_path_count=1
+
+   //tracker_server对应的是多台tracker的地址
+   tracker_server=192.168.30.23:22122
+   tracker_server=192.168.30.24:22122
+
+   http.server_port=8888    //这里的端口设置要跟nginx开放的端口一致
+   ```
+
+4. 开放端口23000，操作命令为
+
+   ```
+   查看端口：firewall-cmd --list-ports
+   开放端口：firewall-cmd --zone=public --add-port=23000/tcp --permanent   (permanent表示永久生效)
+   重启firewall：firewall-cmd --reload
+   ```
+
+5. 启动storage，并检查是否配置成功
+
+   ```
+   启动storage命令：/etc/init.d/fdfs_storaged start
+   查看进程命令：ps -el | grep fdfs
+   停止storage命令：/etc/init.d/fdfs_storaged stop
+   ```
+
+   启动成功之后，storage文件夹中就会自动创建data跟logs文件夹。
+
+6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`
+
+7. storage.conf配置文件参数解释可以找官方文档，地址为：
+
+   [http://fredlong.iteye.com/blog/2287899](http://fredlong.iteye.com/blog/2287899)
+
+
 
 
 
