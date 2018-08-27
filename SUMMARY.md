@@ -33,6 +33,7 @@
     * [集群](centos/fastdfs/ji-qun.md)
     * [从零开始搭建fastdfs（一）](centos/fastdfs/cong-ling-kai-shi-da-jian-fastdfs.md)
     * [从零开始搭建fastdfs（二）](centos/fastdfs/cong-ling-kai-shi-da-jian-fastdfs-ff08-er-ff09.md)
+    * [fastdfs数据迁移与扩容](centos/fastdfs/fastdfsshu-ju-qian-yi.md)
   * [mysql](centos/mysql.md)
     * [集群](centos/mysql/ji-qun.md)
     * [主从](centos/mysql/zhu-cong.md)
