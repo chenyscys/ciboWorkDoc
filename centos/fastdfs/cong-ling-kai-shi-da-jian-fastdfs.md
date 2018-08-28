@@ -78,7 +78,7 @@ wget http://nginx.org/download/nginx-1.8.0.tar.gz    下载nginx服务器源代�
 1. 进入soft文件夹：`cd /usr/local/soft`
 2. 解压FastDFS： `tar -zxvf V5.05.tar.gz`
 3. 进入FastDFS：`cd /usr/local/soft/fastdfs-5.05/`
-4. 编辑配置文件：`vi make.sh`   将TARGET\_PREFIX=$DESTDIR/usr改成TARGET\_PREFIX=$DESTDIR/usr/local/soft
+4. 编辑配置文件：`vi make.sh`   将TARGET\_PREFIX=$DESTDIR/usr改成TARGET\_PREFIX=$DESTDIR/usr/local
 5. 编译：`./make.sh`
 6. 安装：`./make.sh install`
 
