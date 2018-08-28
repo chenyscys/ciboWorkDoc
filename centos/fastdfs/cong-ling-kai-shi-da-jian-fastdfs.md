@@ -123,7 +123,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    这里，启动之后查看进程命令可能发现没执行成功，这时可以先执行停止命令，再查看，然后再启动就可以了。启动成功之后，tracker文件夹中就会自动创建data跟logs文件夹。
 
-6. 设置tracker开机启动：`cd /ect/init.d/ chkconfig -add fdfs_strackerd chkconfig fdfs_trackerd on`  
+6. 设置tracker开机启动：`cd /etc/init.d/ chkconfig -add fdfs_strackerd chkconfig fdfs_trackerd on`  
    ps:这里配置完之后，重启发现没有开机启动~~，有小伙伴知道原因的可以告知下~
 
 7. tracker.conf配置文件参数解释可以找官方文档，地址为：
