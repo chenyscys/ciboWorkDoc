@@ -167,7 +167,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    启动成功之后，storage文件夹中就会自动创建data跟logs文件夹。
 
-6. 设置storage开机启动：`cd /ect/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`  
+6. 设置storage开机启动：`cd /etc/init.d/ chkconfig -add fdfs_storaged chkconfig fdfs_storaged on`  
    ps:这里配置完之后，重启发现没有开机启动~~，有小伙伴知道原因的可以告知下。
 
 7. storage.conf配置文件参数解释可以找官方文档，地址为：
