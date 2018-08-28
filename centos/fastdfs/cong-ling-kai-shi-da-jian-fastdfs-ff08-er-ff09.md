@@ -8,7 +8,7 @@
 
 1. 进入之前软件下载的文件夹：`cd /usr/local/soft`
 2. 解压fastdfs-nginx-module\_v1.16.tar.gz文件：`tar -zxvf fastdfs-nginx-module_v1.16.tar.gz`
-3. 这里要注意，假如按照上一篇的文章安装fastdfs，这里就不用修改配置了，因为fastdfs跟fastcommon安装在/usr/local/include/中，假如修改了这个配置，会导致下面的nginx编译安装失败。
+3. 这里要查看一下/usr/include跟/usr/local/include，看看fastdfs跟fastcommon两个文件夹的在哪，再修改配置。
 
    如把fastdfs跟fastcommon安装在/usr/include，那么请修改配置config：
 
@@ -48,7 +48,7 @@
    ```
 
 5. 复制FastDFS里的2个文件http.conf和mime.types，到/etc/fdfs目录中。  
-   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                    
+   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                      
     cp /usr/local/soft/fastdfs-5.05/conf/mime.types /etc/fdfs/`
 
 6. 创建一个软连接：在/fastdfs/storage文件存储目录下创建软连接，将其链接到实际存放数据的目录。  
