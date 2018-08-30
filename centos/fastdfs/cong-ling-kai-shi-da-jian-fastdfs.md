@@ -57,8 +57,6 @@ wget http://nginx.org/download/nginx-1.8.0.tar.gz    下载nginx服务器源代�
 
 在fastdfs里面创建2个文件夹，`mkdir tracker`，`mkdir storage`
 
-查看storage状态：`fdfs_monitor /etc/fdfs/storage.conf`
-
 至此，安装前的准备就差不多结束了~~
 
 ---
@@ -183,6 +181,8 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 7. storage.conf配置文件参数解释可以找官方文档，地址为：
 
    [http://fredlong.iteye.com/blog/2287899](http://fredlong.iteye.com/blog/2287899)
+
+8. 查看storage状态：`fdfs_monitor /etc/fdfs/storage.conf`
 
 ### 七、配置client
 
