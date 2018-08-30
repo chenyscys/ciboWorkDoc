@@ -57,6 +57,8 @@ wget http://nginx.org/download/nginx-1.8.0.tar.gz    下载nginx服务器源代�
 
 在fastdfs里面创建2个文件夹，`mkdir tracker`，`mkdir storage`
 
+查看storage状态：`fdfs_monitor /etc/fdfs/storage.conf`
+
 至此，安装前的准备就差不多结束了~~
 
 ---
