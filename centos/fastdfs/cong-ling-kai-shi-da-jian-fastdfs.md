@@ -127,7 +127,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    ```
    cd /etc/init.d/
-   chkconfig --add fdfs_strackerd chkconfig fdfs_trackerd on
+   chkconfig --add fdfs_trackerd
    ```
 
 7. tracker.conf配置文件参数解释可以找官方文档，地址为：
@@ -175,7 +175,7 @@ FastDFS主程序设置的目录为/usr/local/lib/，而我们的安装目录为/
 
    ```
    cd /etc/init.d/ 
-   chkconfig --add fdfs_storaged chkconfig fdfs_storaged on
+   chkconfig --add fdfs_storaged
    ```
 
 7. storage.conf配置文件参数解释可以找官方文档，地址为：
