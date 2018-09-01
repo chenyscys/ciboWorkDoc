@@ -8,7 +8,7 @@ update svn://192.168.3.29/svn/ciboapp/trunk /mnt/xvdb1/www/composer/ciboapp
 
 cd /mnt/xvdb1/www/composer/ciboapp
 
-chmod -R 777 public storage
+chmod -R 777 public storage bootstrap
 
 #### laravel缓存清理
 
