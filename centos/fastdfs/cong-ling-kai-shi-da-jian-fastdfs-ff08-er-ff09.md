@@ -48,7 +48,7 @@
    ```
 
 5. 复制FastDFS里的2个文件http.conf和mime.types，到/etc/fdfs目录中。  
-   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                            
+   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                                  
     cp /usr/local/soft/fastdfs-5.05/conf/mime.types /etc/fdfs/`
 
 6. 创建一个软连接：在/fastdfs/storage文件存储目录下创建软连接，将其链接到实际存放数据的目录。  
@@ -280,7 +280,50 @@ server {
 
 关于缓存删除ngx\_cache\_purge模块的文章：[Nginx缓存配置及nginx ngx\_cache\_purge模块的使用](https://www.cnblogs.com/Eivll0m/p/4921829.html)
 
-### 十、参考文档：
+### 十二、安装php的fastdfs扩展：
+
+1、在服务器上安装fastdfs跟libfastcommon，这里要注意：安装fastdfs的依赖libfastcommon要安装新版本，不要用文章中的1.07，不然会导致后面安装扩展的时候报错。安装过程参考：[从零开始在centos上搭建fastdfs文件管理系统](http://192.168.3.29:4000/centos/fastdfs/cong-ling-kai-shi-da-jian-fastdfs.html)，主要看文章的三、四
+
+2、进入fastdfs的解压目录，在目录中找到php\_client文件夹。假如解压目录是/usr/local/soft/fastdfs，php的安装目录是/usr/local/php，那么操作步骤如下：
+
+```
+cd /usr/local/soft/fastdfs/php_client
+/usr/local/php/bin/phpize    //初始化
+ ./configure --with-php-config=/usr/local/php/bin/php-config    //编译文件，注意这里的路径，要跟php的安装目录一致
+make test    //测试一下能否安装没问题就可以执行下一步
+make && make install  //安装
+```
+
+安装成功后，可以查看一下/etc/php.ini文件，看看有没把fastdfs配置进去，如果没有，执行
+
+```
+cat /usr/local/soft/fastdfs/php_client/fastdfs_client.ini >> /etc/php.ini
+```
+
+然后重启php
+
+```
+/etc/init.d/php-fpm restart
+或者 service php-fpm restart
+
+php -m    可以查看php安装了什么扩展
+```
+
+以上，如果php启动的时候报错如下
+
+```
+Starting php-fpm [01-Sep-2018 19:59:51] NOTICE: PHP message: PHP Warning:  PHP Startup: Unable to load dynamic library 'fastdfs_client.so' (tried: /usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so (/usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so: cannot open shared object file: No such file or directory), /usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so.so (/usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+```
+
+这种情况是因为默认扩展路径出错了，我的服务器php的安装目录是/app/soft/php，扩展目录也是在该文件夹下，所以就会出现以上报错，解决方法就是到/etc/php.ini文件修改扩展配置路径：
+
+```
+extension_dir = "/app/soft/php/lib/php/extensions/no-debug-non-zts-20170718"
+```
+
+然后重启php即可。
+
+### 十三、参考文档：
 
 1. [手把手教你搭建FastDFS集群（上）](https://blog.csdn.net/u012453843/article/details/68957209)
 
@@ -299,6 +342,8 @@ server {
 8. [nginx使用image\_filter生成缩略图 -- fasdfs海量图片缩略图整合](https://blog.csdn.net/clevercode/article/details/52278482)
 
 9. [Nginx缓存配置及nginx ngx\_cache\_purge模块的使用](https://www.cnblogs.com/Eivll0m/p/4921829.html)
+
+10. [fastdfs添加php扩展](https://blog.csdn.net/linux_newbie_rookie/article/details/79061886)
 
 
 
