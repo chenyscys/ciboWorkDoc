@@ -8,7 +8,7 @@ svn update svn://192.168.3.29/svn/ciboapp/branches/201801 /www/ciboapp/branches/
 
 cd /www/ciboapp/branches/201801/
 
-chmod -R 777 public storage
+chmod -R 777 public storage bootstrap
 
 #### laravel缓存清理
 

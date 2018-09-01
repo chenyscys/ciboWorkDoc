@@ -6,7 +6,15 @@
 
 [http://10.10.10.16:6](#)002
 
-#### 更新命令
+* #### 更新发布代码
+
+\#xshell连接服务器
+
+![](/assets/14.png)
+
+密码cibo8112.
+
+\#执行命令，进行更新
 
 svn co svn://192.168.3.29/svn/summer\_system/oa/trunk /home/www/oa/trunk
 
