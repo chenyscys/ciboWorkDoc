@@ -48,7 +48,7 @@
    ```
 
 5. 复制FastDFS里的2个文件http.conf和mime.types，到/etc/fdfs目录中。  
-   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                              
+   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                                
     cp /usr/local/soft/fastdfs-5.05/conf/mime.types /etc/fdfs/`
 
 6. 创建一个软连接：在/fastdfs/storage文件存储目录下创建软连接，将其链接到实际存放数据的目录。  
@@ -315,7 +315,13 @@ php -m    可以查看php安装了什么扩展
 Starting php-fpm [01-Sep-2018 19:59:51] NOTICE: PHP message: PHP Warning:  PHP Startup: Unable to load dynamic library 'fastdfs_client.so' (tried: /usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so (/usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so: cannot open shared object file: No such file or directory), /usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so.so (/usr/local/php/lib/php/extensions/no-debug-non-zts-20170718/fastdfs_client.so.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
 ```
 
-这种情况是因为默认扩展路径出错了，我的服务器php的安装目录是/app/soft/php，扩展目录也是在文件夹下
+这种情况是因为默认扩展路径出错了，我的服务器php的安装目录是/app/soft/php，扩展目录也是在该文件夹下，所以就会出现以上报错，解决方法就是到/etc/php.ini文件修改扩展配置路径：
+
+```
+extension_dir = "/app/soft/php/lib/php/extensions/no-debug-non-zts-20170718"
+```
+
+然后重启php即可。
 
 ### 十三、参考文档：
 
