@@ -8,5 +8,9 @@
 
 #### 更新命令
 
+![](/assets/14.png)
+
+密码cibo8112.
+
 svn co svn://192.168.3.29/svn/summer\_system/oa/trunk /home/www/oa/trunk
 
