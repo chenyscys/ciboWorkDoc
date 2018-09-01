@@ -48,7 +48,7 @@
    ```
 
 5. 复制FastDFS里的2个文件http.conf和mime.types，到/etc/fdfs目录中。  
-   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                                
+   `cp /usr/local/soft/fastdfs-5.05/conf/http.conf /etc/fdfs/                                  
     cp /usr/local/soft/fastdfs-5.05/conf/mime.types /etc/fdfs/`
 
 6. 创建一个软连接：在/fastdfs/storage文件存储目录下创建软连接，将其链接到实际存放数据的目录。  
@@ -342,6 +342,8 @@ extension_dir = "/app/soft/php/lib/php/extensions/no-debug-non-zts-20170718"
 8. [nginx使用image\_filter生成缩略图 -- fasdfs海量图片缩略图整合](https://blog.csdn.net/clevercode/article/details/52278482)
 
 9. [Nginx缓存配置及nginx ngx\_cache\_purge模块的使用](https://www.cnblogs.com/Eivll0m/p/4921829.html)
+
+10. [fastdfs添加php扩展](https://blog.csdn.net/linux_newbie_rookie/article/details/79061886)
 
 
 
