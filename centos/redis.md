@@ -20,6 +20,10 @@ service redisd start
 
 service redisd stop
 
+#### 重启
+
+service redis restart
+
 #### 查看详细信息
 
 ![](/assets/redis1.png)
