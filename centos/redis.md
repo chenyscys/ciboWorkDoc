@@ -2,7 +2,7 @@
 
 cd /etc/redis/
 
-#### 查看进程
+### 查看进程
 
 ps -ef\|grep redis
 
@@ -43,4 +43,10 @@ cp redis\_init\_script /etc/init.d/redisd
 firewall-cmd --add-port=6379/tcp --permanent
 
 firewall-cmd --add-port=26379/tcp --permanent
+
+#### centos7开机启动redis
+
+[https://blog.csdn.net/sjhuangx/article/details/79633112](https://blog.csdn.net/sjhuangx/article/details/79633112)
+
+PS：文章里面创建用户组的方法写错了，应该是`sudo groupadd redis`
 
