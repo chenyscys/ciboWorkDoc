@@ -50,3 +50,5 @@ firewall-cmd --add-port=26379/tcp --permanent
 
 PS：文章里面创建用户组的方法写错了，应该是`sudo groupadd redis`
 
+`ps aux | grep redis` 查看redis的运行pid
+
