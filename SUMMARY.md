@@ -26,6 +26,7 @@
     * [主从](centos/redis/zhu-cong.md)
     * [集群](centos/redis/redisji-qun.md)
     * [php支持](centos/php/predis.md)
+    * [集群cluster](centos/redis/ji-qun-cluster.md)
   * [fastdfs](centos/fastdfs.md)
     * [常见问题](centos/fastdfs/chang-jian-wen-ti.md)
     * [nginx支持](centos/nginx/fastdfszhi-chi.md)
