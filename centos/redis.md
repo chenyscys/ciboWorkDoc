@@ -50,6 +50,8 @@ firewall-cmd --add-port=26379/tcp --permanent
 
 PS：文章里面创建用户组的方法写错了，应该是`sudo groupadd redis`
 
+同时，设置开机启动的话，要把后台运行改为no
+
 `ps aux | grep redis` 查看redis的运行pid
 
 关于linux上systemctl命令介绍：[http://linux.51yip.com/search/systemctl](http://linux.51yip.com/search/systemctl)，设置开机启动时可以参考，便于理解
