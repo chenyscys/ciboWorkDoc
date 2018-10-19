@@ -6,6 +6,7 @@
   * [API文档](laravel/apiwen-dang.md)
   * [队列](laravel/dui-lie.md)
   * [连接SQL Server](laravel/lian-jiesql-server.md)
+  * [关于PUT更新失败](laravel/guan-yu-put-geng-xin-shi-bai.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
