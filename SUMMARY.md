@@ -57,6 +57,7 @@
   * [nfs](centos/nfs.md)
   * [crontab](centos/crontab.md)
   * [firewall](centos/duan-kou.md)
+  * [keepalived](centos/keepalived.md)
 * [running apps](prod-and-dev/projects.md)
   * [ciboapp](prod-and-dev/projects/ciboapp.md)
     * [production](prod-and-dev/projects/ciboapp/zheng-shi.md)
