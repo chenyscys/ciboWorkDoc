@@ -34,7 +34,7 @@
 2. ![](/assets/import.png) Gitbook Editor 在我们每次编辑之后就会有个save按钮，save之后右边那个就是上传到github仓库上，也就是git push。PS：这编辑器也是够简单粗暴的，不过我喜欢~~
 
 3. 接下来我们要去github上面的项目配置一下**webhooks**了，首先打开github项目网址，然后去项目的setting设置里，  
-   ![](/assets/githubSetting.png)在这里新建一个webhook，填上一个网址。而当push完项目时，github就会去POST这个网址，并且传上一系列参数，这里可选表单模式与json模式，看个人喜欢选择咯！`ssh-keygen -t rsa -C "your_email@youremail.com"`
+   ![](/assets/githubSetting.png)在这里新建一个webhook，填上一个网址。而当push完项目时，github就会去POST这个网址，并且传上一系列参数，这里可选表单模式与json模式，看个人喜欢选择咯！
 
 4. 这里还有很关键的一步，我们需要去服务器生成ssh密钥，这个是用来授权使用的。  
    生成命令：`ssh-keygen -t rsa -C "your_email@youremail.com"`  
@@ -45,14 +45,14 @@
 由于我们是用php开发的，所以我就写了一个php文件来接收这个POST，然后用system函数/shell\_exec函数来执行外部环境的命令，也就是在linux下的命令，这里的坑就大了。
 
 1. 一般情况下，我们ssh连上去都是root账户，有root权限，所以很多命令运行起来都没什么问题，毕竟天大地大ROOT最大嘛  
-   但是github通过post过来的时候，跟我们浏览器访问的时候是一样的，都是php的运行用户，在这里我们的php配置的运行用户叫nginx，不信？哟呵，大伙可以写个php文件，然后写上一句  `echo shell_exec('id -a')`看看显示什么哈，我们这里都是501\(nginx\)。  
+   但是github通过post过来的时候，跟我们浏览器访问的时候是一样的，都是php的运行用户，在这里我们的php配置的运行用户叫nginx，不信？哟呵，大伙可以写个php文件，然后写上一句  `echo shell_exec('id -a')`看看显示什么哈，我们这里都是501\(nginx\)。
 
-2. 当我们把文件写好了之后，比如第一步，尝试一下`shell_exec(cd 指定目录 && git pull)`，然后通过浏览器访问一下php文件，然后去知道目录下面ls一下，就会发现，文件更新啦，只要可行，那当我们推送到github仓库后，就会自动帮我们更新了。  
+2. 当我们把文件写好了之后，比如第一步，尝试一下`shell_exec(cd 指定目录 && git pull)`，然后通过浏览器访问一下php文件，然后去知道目录下面ls一下，就会发现，文件更新啦，只要可行，那当我们推送到github仓库后，就会自动帮我们更新了。
 
 3. 那接下来，就是要打包了，gitbook的打包命令，之前已经说过了，`gitbook build`这时候就尴尬了，我遇到了大坑，差点爬不出来，要么找不到命令，要么就是运行报错。  
    直接运行gitbook的话就会找不到命令，这时有可能是命令的软链接有误，可以用 **ll** 命令检查一下/usr/local/bin/跟/usr/bin 中的gitbook，如果没有或者链接显示红色，如下：![](/assets/2.png)  
    那就需要重新建立软链接了。  
-   假如进行了以上操作还是不行的话，那就用npm把gitbook都卸载掉吧，然后重新用`sudo npm install -g gitbook`安装，之后还是检查一下链接，接下来，你就会发现通过`sudo /usr/local/bin/gitbook --version`可以显示出版本号了。  
+   假如进行了以上操作还是不行的话，那就用npm把gitbook都卸载掉吧，然后重新用`sudo npm install -g gitbook`安装，之后还是检查一下链接，接下来，你就会发现通过`sudo /usr/local/bin/gitbook --version`可以显示出版本号了。
 
 4. 但是，在改成build的情况下你会发现，报错了= =，如下：![](/assets/impor23t.png)  
    以上用`sudo -u nginx /usr/local/bin/gitbook build`中前面的`sudo -u nginx`是为了模拟浏览器的运行用户，这样运行不了，大概率是账户权限问题，最后被折腾的没有办法了，只能去/etc/sudoers那里给nginx添加sudo权限，这样最终才解决了问题。  
