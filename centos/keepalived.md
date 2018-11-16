@@ -4,7 +4,7 @@ keepalived的搭建
 
 yum安装：[http://blog.51cto.com/afterdawn/1888682](http://blog.51cto.com/afterdawn/1888682)
 
-建议用yum安装，可以用命令启动，停止，重启keepalived
+建议用yum安装，可以用命令启动，停止，重启keepalived，不过要注意添加一个新的用户 keepalived\_script；
 
 redis+keepalived配置：[https://blog.csdn.net/kjsayn/article/details/53411625](https://blog.csdn.net/kjsayn/article/details/53411625)
 
