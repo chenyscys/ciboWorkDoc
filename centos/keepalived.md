@@ -1,10 +1,8 @@
 keepalived的搭建
 
-安装：[http://www.linuxe.cn/post-266.html](http://www.linuxe.cn/post-266.html)
+安装：[http://www.cnblogs.com/tvkzy/p/9259664.html](http://www.cnblogs.com/tvkzy/p/9259664.html)
 
-yum安装：[http://blog.51cto.com/afterdawn/1888682](http://blog.51cto.com/afterdawn/1888682)
-
-建议用yum安装，可以用命令启动，停止，重启keepalived，不过要注意添加一个新的用户 keepalived\_script；
+安装时注意要把keepalived注册为系统服务
 
 redis+keepalived配置：[https://blog.csdn.net/kjsayn/article/details/53411625](https://blog.csdn.net/kjsayn/article/details/53411625)
 
