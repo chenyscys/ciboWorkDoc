@@ -18,3 +18,7 @@ ps：备备模式，就是双机都为backup，并且设置了不抢占master，
 
 [http://www.mamicode.com/info-detail-313367.html](http://www.mamicode.com/info-detail-313367.html)
 
+![](/assets/共享虚拟IP配置.png)
+
+![](/assets/流程.png)
+
