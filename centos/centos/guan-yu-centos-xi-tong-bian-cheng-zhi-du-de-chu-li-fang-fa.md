@@ -67,5 +67,11 @@ service network restart
 /etc/init.d/sshd restart
 ```
 
-2、nginx，mysql等等的重启
+2、防火墙重启
+
+```
+service iptables restart
+```
+
+3、nginx，mysql等等的重启
 
