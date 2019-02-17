@@ -48,6 +48,7 @@
     * [xshell](centos/centos/xshell.md)
     * [架构](centos/centos/jia-gou.md)
     * [虚拟机上安装centos7](centos/centos/xu-ni-ji-shang-an-zhuang-centos7.md)
+    * [关于centos系统变成只读的处理方法](centos/centos/guan-yu-centos-xi-tong-bian-cheng-zhi-du-de-chu-li-fang-fa.md)
   * [php](centos/php.md)
     * [composer安装](centos/php/composeran-zhuang.md)
     * [性能优化](centos/php/xing-neng-you-hua.md)
