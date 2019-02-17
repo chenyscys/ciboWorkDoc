@@ -58,6 +58,8 @@ mount /dev/xvdb1 /mnt/xvdb1/    //挂载
 
 至此，解决。
 
+参考文章：[https://www.jianshu.com/p/f552078d882e](https://www.jianshu.com/p/f552078d882e)
+
 接着，由于重启过服务器，可能我们要重启一下服务：
 
 1、网卡重启+sshd重启（这一步要在重启之后马上做，不然都没法用ssr连接，这一步请找小林哥）
