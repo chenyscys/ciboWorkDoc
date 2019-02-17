@@ -16,9 +16,9 @@ cd /var/log/redis
 
 redis-server /etc/redis/6379.conf 或
 
-service redisd start
+service redis start
 
-service redisd stop
+service redis stop
 
 #### 重启
 
