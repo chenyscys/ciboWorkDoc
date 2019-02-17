@@ -75,5 +75,5 @@ service network restart
 service iptables restart
 ```
 
-3、nginx，mysql等等的重启
+3、nginx，mysql，php等等的重启
 
