@@ -76,4 +76,5 @@
   * [开发规范](minipro/kai-fa-gui-fan.md)
   * [关于一些全局的方法](minipro/guan-yu-yi-xie-quan-ju-de-fang-fa.md)
 * [qh\_activity](qhactivity.md)
+  * [抽奖系统相关流程](qhactivity/chou-jiang-xi-tong-xiang-guan-liu-cheng.md)
 
