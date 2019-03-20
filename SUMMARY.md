@@ -75,4 +75,5 @@
   * [文件目录结构](minipro/wen-jian-mu-lu-jie-gou.md)
   * [开发规范](minipro/kai-fa-gui-fan.md)
   * [关于一些全局的方法](minipro/guan-yu-yi-xie-quan-ju-de-fang-fa.md)
+* [qh\_activity](qhactivity.md)
 
