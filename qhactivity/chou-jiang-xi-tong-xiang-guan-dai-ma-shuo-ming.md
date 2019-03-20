@@ -18,6 +18,12 @@
 
 修改方式：**app/Entities/PartyOrder.php 文件上修改，打开文件看下注释就明白了。**
 
+6、抽奖界面滚动特效：
+
+文件：常规抽奖：resources/views/admin/draw/index.blade.php，免单：resources/views/admin/draw/finalDraw.blade.php
+
+修改显示馆号：查询搜索 getGroup，要随机显示几个馆号，传进一个数组，如只显示1，2，5，就传 \[1,2,5\] 即可。
+
 
 
 备注：
@@ -30,11 +36,7 @@
 
 如有变动，请进入核心代码文件进行修改。代码有注释说明。
 
-
-
 活动类型：1、砸金蛋；2、即买即抽；3、优惠券抽奖；4、满额送；5、抢购；6、的士报销；7、联购返现
-
-
 
 关于 **party\_order **和 **party\_order\_repeat **两表存在的意义：
 
