@@ -92,7 +92,9 @@ methods：**post，**desc：**减去用户某个活动的机会可用数used\_nu
 
 methods：**get，**desc**：获取某个用户总助力人数。**
 
+* home/qhAssist/addAssistLog/{uniqid}/{id}：
 
+methods：**get，**desc**：为某个活动的某个用户助力。**
 
 
 
