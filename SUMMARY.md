@@ -79,4 +79,5 @@
   * [抽奖系统相关流程](qhactivity/chou-jiang-xi-tong-xiang-guan-liu-cheng.md)
   * [每次抽奖操作流程](qhactivity/chou-jiang-xi-tong-xiang-guan-dai-ma-shuo-ming.md)
   * [企划微信项目常用接口说明](qhactivity/qi-hua-wei-xin-xiang-mu-chang-yong-jie-kou-shuo-ming.md)
+  * [微信端VUE升级为NUXT](qhactivity/wei-xin-duan-vue-sheng-ji-wei-nuxt.md)
 
