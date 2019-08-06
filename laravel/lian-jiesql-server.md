@@ -18,6 +18,7 @@
 > windows 环境
 
 ```
+# 访问 https://github.com/Microsoft/msphpsql/tags 下载 php 扩展，并将文件放入 ext 文件夹
 # 编辑 php.ini 文件，添加 php 版本对应的扩展
 extension=php_sqlsrv_7_nts_x86.dll
 extension=php_pdo_sqlsrv_7_nts_x86.dll
