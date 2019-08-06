@@ -49,5 +49,7 @@ $ vi /etc/php-fpm.d/www.conf
 $chown -R nginx:nginx /var/lib/php/session
 ```
 
+> 参考：https://www.cnblogs.com/lamp01/p/10101659.html
+
 
 
