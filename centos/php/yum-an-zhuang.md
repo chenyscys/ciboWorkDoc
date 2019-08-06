@@ -20,8 +20,9 @@ $ yum -y install php72w php72w-cli php72w-fpm php72w-common php72w-devel php72w-
 # 安装 zip 扩展
 $ yum --enablerepo=epel install php72w-pecl-zip
 
-# 安装 fastdfs_client 扩展
-# 参考本教程：http://192.168.3.29:4000/centos/php/fastdfskuo-zhan-an-zhuang.html
+# fastdfs_client 配置，参考本教程：http://192.168.3.29:4000/centos/php/fastdfskuo-zhan-an-zhuang.html
+$ cd /home/app/FastDFS/php_client/
+$ cat fastdfs_client.ini >> /etc/php.ini
 ```
 
 > 安装完成以后，启动服务
