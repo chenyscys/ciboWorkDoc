@@ -41,8 +41,8 @@ $ systemctl restart php-fpm.service # 重启服务
 > 其它配置
 
 ```
-# 设置用户组/用户为 nginx
-$ vi /etc/php-fpm.d/www.conf # 修改 user = nginx，group = nginx
+# 修改 user = nginx，group = nginx
+$ vi /etc/php-fpm.d/www.conf
 
 # 设置 /var/lib/php/ 下子目录用户组/用户为 nginx
 $chown -R nginx:nginx /var/lib/php/session
