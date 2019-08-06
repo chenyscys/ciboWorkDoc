@@ -15,11 +15,11 @@
 
 2.web 服务器开启 pdo\_sqlsrv 扩展
 
-> windows 环境
+> 例：windows 环境，php 7.0
 
 ```
-# 访问 https://github.com/Microsoft/msphpsql/tags 下载 php 扩展，并将文件放入 ext 文件夹
-# 编辑 php.ini 文件，添加 php 版本对应的扩展
+# 访问 https://github.com/Microsoft/msphpsql/tags 下载 php 版本对应的扩展文件，并放入 ext 文件夹
+# 编辑 php.ini 文件，开启扩展
 extension=php_sqlsrv_7_nts_x86.dll
 extension=php_pdo_sqlsrv_7_nts_x86.dll
 # 访问 https://www.microsoft.com/zh-CN/download/details.aspx?id=36434，下载安装 ODBC Driver
@@ -50,7 +50,11 @@ class ModelName extends Model
 }
 ```
 
-> 参考链接：[https://phpartisan.cn/news/24.html](https://phpartisan.cn/news/24.html)
+> 参考链接：
+>
+> [https://phpartisan.cn/news/24.html](https://phpartisan.cn/news/24.html)
+>
+> [https://www.cnblogs.com/win32pro/p/8508257.html](https://www.cnblogs.com/win32pro/p/8508257.html)
 
 
 
