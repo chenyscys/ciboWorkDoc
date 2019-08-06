@@ -18,9 +18,7 @@ $ yum -y remove php*
 $ yum -y install php72w php72w-cli php72w-fpm php72w-common php72w-devel php72w-embedded php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml php72w-pecl-redis php72w-mssql php72w-bcmath php72w-process php72w-soap
 ```
 
-> 安装 fastdfs\_client 扩展
-
-参考本教程：http://192.168.3.29:4000/centos/php/fastdfskuo-zhan-an-zhuang.html
+> 安装 fastdfs\_client 扩展，参考本教程：[http://192.168.3.29:4000/centos/php/fastdfskuo-zhan-an-zhuang.html](http://192.168.3.29:4000/centos/php/fastdfskuo-zhan-an-zhuang.html)
 
 > 安装完成以后，启动服务
 
