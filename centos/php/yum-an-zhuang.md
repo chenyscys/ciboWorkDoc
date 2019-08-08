@@ -15,7 +15,7 @@ $ yum -y remove php*
 
 ```
 # 可根据实际需要安装，本项目用到以下扩展
-$ yum -y install php72w php72w-cli php72w-fpm php72w-common php72w-devel php72w-embedded php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml php72w-pecl-redis php72w-mssql php72w-bcmath php72w-process php72w-soap
+$ yum -y install php72w php72w-cli php72w-fpm php72w-common php72w-devel php72w-embedded php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml php72w-pecl-redis php72w-mssql php72w-bcmath php72w-process php72w-soap php72w-dba
 
 # 安装 zip 扩展
 $ yum --enablerepo=epel install php72w-pecl-zip
@@ -49,7 +49,7 @@ $ vi /etc/php-fpm.d/www.conf
 $chown -R nginx:nginx /var/lib/php/session
 ```
 
-> 参考：https://www.cnblogs.com/lamp01/p/10101659.html
+> 参考：[https://www.cnblogs.com/lamp01/p/10101659.html](https://www.cnblogs.com/lamp01/p/10101659.html)
 
 
 
