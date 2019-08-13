@@ -7,6 +7,7 @@
   * [队列](laravel/dui-lie.md)
   * [连接SQL Server](laravel/lian-jiesql-server.md)
   * [关于PUT更新失败](laravel/guan-yu-put-geng-xin-shi-bai.md)
+  * [test](laravel/test.md)
 * [vue](vue.md)
   * [状态管理—微信客户端](vue/zhuang-tai-guan-li.md)
     * [scrollPos](vue/zhuang-tai-guan-li/scrollpos.md)
@@ -81,5 +82,4 @@
   * [每次抽奖操作流程](qhactivity/chou-jiang-xi-tong-xiang-guan-dai-ma-shuo-ming.md)
   * [企划微信项目常用接口说明](qhactivity/qi-hua-wei-xin-xiang-mu-chang-yong-jie-kou-shuo-ming.md)
   * [微信端VUE升级为NUXT](qhactivity/wei-xin-duan-vue-sheng-ji-wei-nuxt.md)
-* [test](test.md)
 
