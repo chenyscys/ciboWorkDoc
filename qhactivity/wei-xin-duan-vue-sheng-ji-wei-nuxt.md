@@ -1,4 +1,4 @@
-原本为了更好地体验与开发，我把邦客珠海的微信端，从vue框架，迁移到vue的一个进阶框架，NUXT，然并卵，很可能微信项目自此夭折，不过迁移也迁移完了，下面是新项目的介绍以及开发规范与注意点：
+项目的介绍以及开发规范与注意点：
 
 1、svn地址：svn://192.168.3.29/svn/cibo\_nuxt
 
@@ -54,28 +54,16 @@ vant 文档：[https://youzan.github.io/vant/\#/zh-CN/intro](https://youzan.gith
 
 **variable.less**： 这是全局的css变量，设定全局css变量，请到这里设定。
 
-
-
 7、如何使用？
 
 * svn checkout 项目到本地，cmd到对应目录，执行npm install； **PS：要注意NPM要在5.2.0以上，最好升级到最新的稳定版node与npm；**
 * npm install 完了之后，运行 npm run dev就可以跑起来了。
 
-
-
 8、如何部署：
 
 进入到对应目录，执行 npm run generate，然后把对应的文件夹 nuxt 放到 laravel 项目下的**public**文件夹下，即可。
 
-
-
 9、关于路由，由于项目会执行静态化，因此，之前nuxt文档中的动态路由，我们是用不了的，那个需要用node的服务器。
 
 因此，我折中，通过用query，即url参数来实现，具体可参考，pages/store里面的goods跟shop页面组件。
-
-
-
-
-
-
 
