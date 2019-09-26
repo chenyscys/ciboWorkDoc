@@ -84,5 +84,5 @@
 * [nuxt](nuxt.md)
   * [移动端](nuxt/yi-dong-duan.md)
     * [常用组件说明](nuxt/yi-dong-duan/chang-yong-zu-jian-shuo-ming.md)
-      * test
+      * [test](nuxt/yi-dong-duan/chang-yong-zu-jian-shuo-ming/test.md)
 
