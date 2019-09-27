@@ -16,7 +16,9 @@
 >
 > `<template>`
 >
->      `<upCompressImg :goods="goods" :angle="angle" ></upCompressImg>`
+> ```
+>  <upCompressImg :goods="goods" :angle="angle" ></upCompressImg>
+> ```
 >
 > `</template>`
 >
@@ -26,21 +28,23 @@
 >
 > `export default {`
 >
->     `components: {upCompressImg },`
+> ```
+> components: {upCompressImg },
 >
->     `data() {`
+> data() {
 >
->     `//若goods里面upimg有相应图片地址可填入，没有则为空`
+> //若goods里面upimg有相应图片地址可填入，没有则为空
 >
->         `return {`
+>     return {
 >
->              `goods:{upimg:''},`
+>          goods:{upimg:''},
 >
->              `angle:0`
+>          angle:0
 >
->          `}`
+>      }
 >
->      `}`
+>  }
+> ```
 >
 > `}`
 >
