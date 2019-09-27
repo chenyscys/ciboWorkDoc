@@ -18,13 +18,13 @@
 
 `<template>`
 
-`   <div>`
+`<div>`
 
-`        <i @click="gotoVote('good',OtherAspag)" >点赞</i>`
+`<i @click="gotoVote('good',OtherAspag)" >点赞</i>`
 
-`        <vote ref="vote" :goodchange.sync="OtherAspag.like_num" ></vote>`
+`<vote ref="vote" :goodchange.sync="OtherAspag.like_num" ></vote>`
 
-`   </div>`
+`</div>`
 
 `</template>`
 
@@ -32,29 +32,31 @@
 
 `import vote from "~/components/vote";`
 
-`export default {`
+`export default {`
 
-`  components: {vote },`
+`components: {vote },`
 
-`  data(){`
+`data(){`
 
-`        return{`
+`return{`
 
-                   `OtherAspag:null，`
+```
+               OtherAspag:null，
 
-                    `goodchange:0`
+               goodchange:0
 
-               `}`
+      }
+```
 
-`  },`
+`},`
 
 `methods: {`
 
-`    gotoVote(type,item){`
+`gotoVote(type,item){`
 
-`          this.$refs.vote.toVote(type,item);`
+`this.$refs.vote.toVote(type,item);`
 
-`     }`
+`}`
 
 `}`
 
@@ -62,25 +64,25 @@
 
 `</script>`
 
-
-
 助力swipeCard组件引用：
 
 `//cardData被助力的对象，cardData.like为当前助力数，cardData.my_num为是否已为该用户助力，助力type为‘help’`
 
 `<template>`
 
-`  <div>`
+`<div>`
 
-`   <div class="head-r flex" @click="vote('help',cardData)">`
+`<div class="head-r flex" @click="vote('help',cardData)">`
 
-`        <van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}`
+`<van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}`
 
-`   </div>`
+`</div>`
 
-       &lt;vote ref="vote" :helpchange.sync="cardData" &gt;&lt;/vote&gt;
+```
+   <vote ref="vote" :helpchange.sync="cardData"></vote>;
 
-    `</div>`
+</div>
+```
 
 `</template>`
 
@@ -88,39 +90,41 @@
 
 `import vote from "~/components/vote";`
 
-`export default {`
+`export default {`
 
-`  components: {vote },`
+`components: {vote },`
 
-`  data(){`
+`data(){`
 
-`        return{`
+`return{`
 
-                  ` helpchange:{}`
+```
+        helpchange:{}
 
-               `}`
+     }
+```
 
-`  },`
+`},`
 
-`props: {`
+`props: {`
 
-`    cardData: {`
+`cardData: {`
 
-`      type: Object,`
+`type: Object,`
 
-`      default: {}`
+`default: {}`
 
-`    }`
+`}`
 
-`  },`
+`},`
 
 `methods: {`
 
-`    vote(type,item){`
+`vote(type,item){`
 
-   `       this.$refs.vote.toVote(type,item);`
+`this.$refs.vote.toVote(type,item);`
 
-`    }`
+`}`
 
 `}`
 
