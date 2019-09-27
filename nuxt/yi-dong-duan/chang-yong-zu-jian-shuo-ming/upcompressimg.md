@@ -10,11 +10,13 @@
 
 * #### 组件使用
 
-##### 父组件引用：
+父组件引用：
 
+> `//goods.upimg为若有需要传入的图片的地址，angle为传入需要旋转的角度可正负，按需选择传入的参数，没有可不填`
+>
 > `<template>`
 >
-> `<upCompressImg :goods="goods"></upCompressImg>`
+> `    <upCompressImg :goods="goods"  :angle="angle" ></upCompressImg>`
 >
 > `</template>`
 >
@@ -22,31 +24,43 @@
 >
 > `import upCompressImg from "~/components/activity/20190922/upCompressImg";`
 >
-> `export default {`
+> `export default {`
 >
-> `components: { upCompressImg },`
+> `  components: {upCompressImg },`
 >
-> `data() {`
+> `  data() {`
 >
-> ```
-> return {
+> `//若goods里面upimg有相应图片地址可填入，没有则为空`
 >
->   goods={}
-> ```
-
-> `}`
+> `      return {`
 >
-> `}`
+> `              goods:{upimg:''},`
+>
+> `              angle:0`
+>
+> `     }`
+>
+> `  }`
 >
 > `}`
 >
 > `</script>`
 
-* #### 使用效果
-
-#### 
-
 * #### 实现原理
+
+压缩：读取图片，获取图片长宽，根据图片的长宽绘制canvas，按压缩比例设置清晰度，重新绘制图片，传出新绘制的图片地址
+
+旋转：读取图片，获取图片长宽，根据图片的长宽绘制canvas，将画布canvas的原点移至旋转点，将图片中心移至旋转点，旋转画布，重新绘制图片，传出新绘制图片地址
+
+* #### 参考文档
+
+[https://www.cnblogs.com/007sx/p/7583202.html](https://www.cnblogs.com/007sx/p/7583202.html)
+
+[https://www.cnblogs.com/suyuanli/p/8279244.html](https://www.cnblogs.com/suyuanli/p/8279244.html)
+
+
+
+
 
 #### 
 
