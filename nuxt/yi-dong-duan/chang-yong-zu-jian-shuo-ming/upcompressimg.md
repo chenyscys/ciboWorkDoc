@@ -12,21 +12,21 @@
 
 父组件引用：
 
-> `//goods.upimg为若有需要传入的图片的地址，angle为传入需要旋转的角度可正负，按需选择传入的参数，没有可不填`
+> //goods.upimg为若有需要传入的图片的地址，angle为传入需要旋转的角度可正负，按需选择传入的参数，没有可不填
 >
-> `<template>`
+> &lt;template&gt;
 >
 > ```
 >  <upCompressImg :goods="goods" :angle="angle" ></upCompressImg>
 > ```
 >
-> `</template>`
+> &lt;/template&gt;
 >
-> `<script>`
+> &lt;script&gt;
 >
-> `import upCompressImg from "~/components/activity/20190922/upCompressImg";`
+> import upCompressImg from "~/components/activity/20190922/upCompressImg";
 >
-> `export default {`
+> export default {
 >
 > ```
 > components: {upCompressImg },
@@ -46,9 +46,9 @@
 >  }
 > ```
 >
-> `}`
+> }
 >
-> `</script>`
+> &lt;/script&gt;
 
 * #### 实现原理
 
