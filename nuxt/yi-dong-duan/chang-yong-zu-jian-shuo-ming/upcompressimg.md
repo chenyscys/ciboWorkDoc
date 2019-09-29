@@ -13,22 +13,22 @@
 父组件引用：
 
 > `//goods.upimg为若有需要传入的图片的地址，angle为传入需要旋转的角度可正负，按需选择传入的参数，没有可不填`
+>```
+> <template>
 >
-> `<template>`
 >
-> ```
 >  <upCompressImg :goods="goods" :angle="angle" ></upCompressImg>
-> ```
 >
-> `</template>`
 >
-> `<script>`
+> </template>
 >
-> `import upCompressImg from "~/components/activity/20190922/upCompressImg";`
+> <script>
 >
-> `export default {`
+> import upCompressImg from "~/components/activity/20190922/upCompressImg";
 >
-> ```
+> export default {
+>
+>
 > components: {upCompressImg },
 >
 > data() {
@@ -44,11 +44,12 @@
 >      }
 >
 >  }
-> ```
 >
-> `}`
 >
-> `</script>`
+> }
+>
+> </script>
+>```
 
 * #### 实现原理
 
@@ -62,7 +63,4 @@
 
 [https://www.cnblogs.com/suyuanli/p/8279244.html](https://www.cnblogs.com/suyuanli/p/8279244.html)
 
-#### 
-
-
-
+####
