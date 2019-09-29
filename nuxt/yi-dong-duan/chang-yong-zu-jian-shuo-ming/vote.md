@@ -68,69 +68,69 @@
 
 `//cardData被助力的对象，cardData.like为当前助力数，cardData.my_num为是否已为该用户助力，助力type为‘help’`
 
-`<template>`
-
-`<div>`
-
-`<div class="head-r flex" @click="vote('help',cardData)">`
-
-`<van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}`
-
-`</div>`
-
-```
-   <vote ref="vote" :helpchange.sync="cardData"></vote>;
-
-</div>
-```
-
-`</template>`
-
-`<script>`
-
-`import vote from "~/components/vote";`
-
-`export default {`
-
-`components: {vote },`
-
-`data(){`
-
-`return{`
-
-```
-        helpchange:{}
-
-     }
-```
-
-`},`
-
-`props: {`
-
-`cardData: {`
-
-`type: Object,`
-
-`default: {}`
-
-`}`
-
-`},`
-
-`methods: {`
-
-`vote(type,item){`
-
-`this.$refs.vote.toVote(type,item);`
-
-`}`
-
-`}`
-
-`}`
-
-`</script>`
+> `<template>`
+>
+> `<div>`
+>
+> `<div class="head-r flex" @click="vote('help',cardData)">`
+>
+> `<van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}`
+>
+> `</div>`
+>
+> ```
+>    <vote ref="vote" :helpchange.sync="cardData"></vote>;
+>
+> </div>
+> ```
+>
+> `</template>`
+>
+> `<script>`
+>
+> `import vote from "~/components/vote";`
+>
+> `export default {`
+>
+> `components: {vote },`
+>
+> `data(){`
+>
+> `return{`
+>
+> ```
+>         helpchange:{}
+>
+>      }
+> ```
+>
+> `},`
+>
+> `props: {`
+>
+> `cardData: {`
+>
+> `type: Object,`
+>
+> `default: {}`
+>
+> `}`
+>
+> `},`
+>
+> `methods: {`
+>
+> `vote(type,item){`
+>
+> `this.$refs.vote.toVote(type,item);`
+>
+> `}`
+>
+> `}`
+>
+> `}`
+>
+> `</script>`
 
 #### 
 
