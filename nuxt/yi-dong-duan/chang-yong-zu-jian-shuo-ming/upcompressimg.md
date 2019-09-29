@@ -16,36 +16,20 @@
 >
 > ```
 > <template>
->
->
 >  <upCompressImg :goods="goods" :angle="angle" ></upCompressImg>
->
->
 > </template>
 >
 > <script>
->
 > import upCompressImg from "~/components/activity/20190922/upCompressImg";
->
 > export default {
->
->
-> components: {upCompressImg },
->
-> data() {
->
-> //若goods里面upimg有相应图片地址可填入，没有则为空
->
+>   components: {upCompressImg },
+>   data() {
+> //若goods里面upimg有相应图片地址可填入，没有则为空；angle为需要图片以中心旋转的角度，没有可以不定义
 >     return {
->
 >          goods:{upimg:''},
->
 >          angle:0
->
->      }
->
->  }
->
+>     }
+>   }
 > }
 >
 > </script>
@@ -62,8 +46,4 @@
 [https://www.cnblogs.com/007sx/p/7583202.html](https://www.cnblogs.com/007sx/p/7583202.html)
 
 [https://www.cnblogs.com/suyuanli/p/8279244.html](https://www.cnblogs.com/suyuanli/p/8279244.html)
-
-### 
-
-
 
