@@ -69,6 +69,12 @@ export default {
          helpchange:{}
      }
    },
+  props: {
+    cardData: {
+      type: Object,
+      default: {}
+    }
+   },
    methods: {
        vote(type,item){
           this.$refs.vote.toVote(type,item);
