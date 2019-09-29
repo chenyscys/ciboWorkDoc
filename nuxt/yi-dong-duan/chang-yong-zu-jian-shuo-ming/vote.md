@@ -14,125 +14,72 @@
 
 点赞父组件引用：
 
-`//OtherAspag被点赞的对象，OtherAspag.like_num为当前点赞数，点赞type为‘good’`
-
-`<template>`
-
-`<div>`
-
-`<i @click="gotoVote('good',OtherAspag)" >点赞</i>`
-
-`<vote ref="vote" :goodchange.sync="OtherAspag.like_num" ></vote>`
-
-`</div>`
-
-`</template>`
-
-`<script>`
-
-`import vote from "~/components/vote";`
-
-`export default {`
-
-`components: {vote },`
-
-`data(){`
-
-`return{`
-
 ```
+//点赞type为‘good’,OtherAspag被点赞的对象，OtherAspag.like_num为当前点赞数,uniqid为活动ID
+
+<template>
+  <div>
+     <i @click="gotoVote('good',OtherAspag)" >点赞</i>
+     <vote ref="vote" :goodchange.sync="OtherAspag.like_num" :uniqid="uniqid" ></vote>
+   </div>
+</template>
+
+<script>
+import vote from "~/components/vote";
+export default {
+   components: {vote },
+   data(){
+      return{
+               uniqid:'5d609f4938198',
                OtherAspag:null，
-
                goodchange:0
-
       }
+     },
+
+   methods: {
+       gotoVote(type,item){
+         this.$refs.vote.toVote(type,item);
+       }
+   }
+}
+
+</script>
 ```
-
-`},`
-
-`methods: {`
-
-`gotoVote(type,item){`
-
-`this.$refs.vote.toVote(type,item);`
-
-`}`
-
-`}`
-
-`}`
-
-`</script>`
 
 助力swipeCard组件引用：
 
-`//cardData被助力的对象，cardData.like为当前助力数，cardData.my_num为是否已为该用户助力，助力type为‘help’`
+```
+//助力type为‘help’,cardData被助力的对象，cardData.like为当前助力数，cardData.my_num为是否已为该用户助力，uniqid为活动ID
 
-> `<template>`
->
-> `<div>`
->
-> `<div class="head-r flex" @click="vote('help',cardData)">`
->
-> `<van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}`
->
-> `</div>`
->
-> ```
->    <vote ref="vote" :helpchange.sync="cardData"></vote>;
->
-> </div>
-> ```
->
-> `</template>`
->
-> `<script>`
->
-> `import vote from "~/components/vote";`
->
-> `export default {`
->
-> `components: {vote },`
->
-> `data(){`
->
-> `return{`
->
-> ```
->         helpchange:{}
->
->      }
-> ```
->
-> `},`
->
-> `props: {`
->
-> `cardData: {`
->
-> `type: Object,`
->
-> `default: {}`
->
-> `}`
->
-> `},`
->
-> `methods: {`
->
-> `vote(type,item){`
->
-> `this.$refs.vote.toVote(type,item);`
->
-> `}`
->
-> `}`
->
-> `}`
->
-> `</script>`
+<template>
+   <div>
+       <div class="head-r flex" @click="vote('help',cardData)">
+       <van-icon name="like" size="18"  :color="cardData.my_num > 0 ? '#ff006c':'#ddd'"/>{{cardData.like}}
+       </div>
+       <vote ref="vote" :helpchange.sync="cardData"  :uniqid="'5d609f630d23f'"></vote>;
+   </div>
+</template>
 
-#### 
+<script>
+import vote from "~/components/vote";
+export default {
+  components: {vote },
+  data(){
+     return{
+         helpchange:{}
+     }
+   },
+   methods: {
+       vote(type,item){
+          this.$refs.vote.toVote(type,item);
+       }
+    }
+}
+
+</script>
+```
+
+### 
 
 
 
